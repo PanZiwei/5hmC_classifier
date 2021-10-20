@@ -1,0 +1,84 @@
+# https://www.coder.work/article/1530032
+
+# Ignore everything in repository root
+*/.ipynb_checkpoints/
+__pycache__/
+
+test/
+/2021-09-02
+/2021-09-03
+/2021-09-11
+/2021-09-13
+/2021-09-14
+/2021-09-15
+/2021-09-16
+/2021-09-24
+/2021-09-27
+/2021-09-28
+/2021-09-29
+
+# Ignoring files by extension
+# All files with these extensions will be ignored in
+# this directory and all its sub-directories.
+*.pkl
+*.bed
+*.tsv
+*.csv
+*.fast5
+
+# Files to not ignore
+!/.gitignore
+
+# Folder to not ignore
+./2021-10-17/.ipynb_checkpoints/extract_module_test-checkpoint.csv
+./2021-10-17/extract_module_test.csv
+./2021-10-13/model.pkl
+./2021-09-29/rf.pkl
+./2021-09-29/rf_narrowdown.pkl
+./2021-09-29/rf_small.pkl
+./2021-10-07/human_hac_list.tsv
+./2021-10-07/human_sup_list.tsv
+./.git/objects/pack/tmp_pack_3WW6VR
+./.git/objects/pack/pack-68c0ee3d15362e026bdd01ce28f488e06bfb5049.pack
+./.git/objects/pack/tmp_pack_VBYXl4
+./.git/objects/pack/tmp_pack_6LQbVf
+./.git/objects/pack/tmp_pack_1aeuBe
+./.git/objects/pack/tmp_pack_KhxtWA
+./.git/objects/pack/tmp_pack_tlvfff
+./.git/objects/pack/tmp_pack_EfEweE
+./.git/objects/pack/tmp_pack_cOYBKg
+./.git/objects/pack/tmp_pack_eulkBC
+./.git/objects/pack/tmp_pack_q7NIP4
+./.git/objects/pack/tmp_pack_1ubdMr
+./.git/objects/pack/tmp_pack_16RBbh
+./.git/objects/pack/tmp_pack_RtUadv
+./.git/objects/pack/tmp_pack_6sO5g7
+./.git/objects/pack/tmp_pack_yqV65D
+./.git/objects/pack/tmp_pack_XHTNX2
+./.git/objects/pack/tmp_pack_Uj5RUl
+./.git/objects/pack/tmp_pack_3e9aYd
+./.git/objects/pack/tmp_pack_A6hyud
+./2021-10-11/rf_20.pkl
+./2021-10-13/model.pkl
+./2021-09-29/rf.pkl
+./2021-09-29/rf_narrowdown.pkl
+./2021-09-29/rf_small.pkl
+./.git/objects/pack/tmp_pack_3WW6VR
+./.git/objects/pack/pack-68c0ee3d15362e026bdd01ce28f488e06bfb5049.pack
+./.git/objects/pack/tmp_pack_VBYXl4
+./.git/objects/pack/tmp_pack_6LQbVf
+./.git/objects/pack/tmp_pack_1aeuBe
+./.git/objects/pack/tmp_pack_KhxtWA
+./.git/objects/pack/tmp_pack_EfEweE
+./.git/objects/pack/tmp_pack_cOYBKg
+./.git/objects/pack/tmp_pack_eulkBC
+./.git/objects/pack/tmp_pack_q7NIP4
+./.git/objects/pack/tmp_pack_1ubdMr
+./.git/objects/pack/tmp_pack_16RBbh
+./.git/objects/pack/tmp_pack_RtUadv
+./.git/objects/pack/tmp_pack_6sO5g7
+./.git/objects/pack/tmp_pack_XHTNX2
+./.git/objects/pack/tmp_pack_Uj5RUl
+./.git/objects/pack/tmp_pack_3e9aYd
+./.git/objects/pack/tmp_pack_A6hyud
+./2021-10-11/rf_20.pkl

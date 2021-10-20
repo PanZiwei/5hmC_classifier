@@ -1,0 +1,29 @@
+Mon Oct 18 16:08:35 EDT 2021
+Loading input...
+Extracting features from nanopore reads...
+Batch feature extraction is done..
+Saving features to file...
+finishing the write_process..
+0/26421 fast5 files failed.
+extract_feature costs 56241.52 seconds.
+lambda_5mC is done!
+-------------------------------------------------------------
+SUMNER/WINTER EPILOGUE
+-------------------------------------------------------------
+Job ID: 11288959
+Cluster: slurm_cluster
+User/Group: root/jaxuser
+State: COMPLETED (exit code 0)
+Cores: 1
+CPU Utilized: 15:18:08
+CPU Efficiency: 97.89% of 15:37:56 core-walltime
+Job Wall-clock time: 15:37:56
+Memory Utilized: 273.05 GB
+Memory Efficiency: 91.02% of 300.00 GB
+-------------------------------------------------------------
+       JobID  User   State    CPUTime Exit     MaxRSS        NodeList  Partition                   ReqTRES              Submit               Start                 End    Elapsed 
+------------ ----- ------- ---------- ---- ---------- --------------- ---------- ------------------------- ------------------- ------------------- ------------------- ---------- 
+11288959     c-pa+ COMPLE+   15:37:56  0:0                  sumner023    compute billing=1,cpu=1,mem=3072+ 2021-10-18T16:08:34 2021-10-18T16:08:34 2021-10-19T07:46:30   15:37:56 
+11288959.ba+       COMPLE+   15:37:56  0:0 279603.70M       sumner023                                      2021-10-18T16:08:34 2021-10-18T16:08:34 2021-10-19T07:46:30   15:37:56 
+11288959.ex+       COMPLE+   15:38:05  0:0      1.58M       sumner023                                      2021-10-18T16:08:34 2021-10-18T16:08:34 2021-10-19T07:46:39   15:38:05 
+-------------------------------------------------------------

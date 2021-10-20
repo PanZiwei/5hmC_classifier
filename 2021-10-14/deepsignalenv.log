@@ -1,0 +1,294 @@
+Collecting deepsignal
+  Using cached deepsignal-0.1.8-py3-none-any.whl
+Collecting numpy>=1.15.3
+  Using cached numpy-1.19.5-cp36-cp36m-manylinux2010_x86_64.whl (14.8 MB)
+Collecting h5py>=2.8.0
+  Using cached h5py-3.1.0-cp36-cp36m-manylinux1_x86_64.whl (4.0 MB)
+Collecting statsmodels>=0.9.0
+  Using cached statsmodels-0.12.2-cp36-cp36m-manylinux1_x86_64.whl (9.5 MB)
+Collecting scikit-learn>=0.20.1
+  Using cached scikit_learn-0.24.2-cp36-cp36m-manylinux2010_x86_64.whl (22.2 MB)
+Collecting cached-property
+  Using cached cached_property-1.5.2-py2.py3-none-any.whl (7.6 kB)
+Collecting joblib>=0.11
+  Using cached joblib-1.1.0-py2.py3-none-any.whl (306 kB)
+Collecting threadpoolctl>=2.0.0
+  Using cached threadpoolctl-3.0.0-py3-none-any.whl (14 kB)
+Collecting scipy>=0.19.1
+  Using cached scipy-1.5.4-cp36-cp36m-manylinux1_x86_64.whl (25.9 MB)
+Collecting pandas>=0.21
+  Using cached pandas-1.1.5-cp36-cp36m-manylinux1_x86_64.whl (9.5 MB)
+Collecting patsy>=0.5
+  Using cached patsy-0.5.2-py2.py3-none-any.whl (233 kB)
+Collecting python-dateutil>=2.7.3
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting pytz>=2017.2
+  Using cached pytz-2021.3-py2.py3-none-any.whl (503 kB)
+Collecting six
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: six, pytz, python-dateutil, numpy, threadpoolctl, scipy, patsy, pandas, joblib, cached-property, statsmodels, scikit-learn, h5py, deepsignal
+Successfully installed cached-property-1.5.2 deepsignal-0.1.8 h5py-3.1.0 joblib-1.1.0 numpy-1.19.5 pandas-1.1.5 patsy-0.5.2 python-dateutil-2.8.2 pytz-2021.3 scikit-learn-0.24.2 scipy-1.5.4 six-1.16.0 statsmodels-0.12.2 threadpoolctl-3.0.0
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: ...working... failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv
+
+  added / updated specs:
+    - ont-tombo
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    gcc_impl_linux-64-9.4.0    |      h03d3576_11        45.6 MB  conda-forge
+    gfortran_impl_linux-64-9.4.0|      h0003116_11        14.6 MB  conda-forge
+    gxx_impl_linux-64-9.4.0    |      h03d3576_11        10.6 MB  conda-forge
+    lerc-3.0                   |       h9c3ff4c_0         216 KB  conda-forge
+    libdeflate-1.8             |       h7f98852_0          67 KB  conda-forge
+    libgcc-devel_linux-64-9.4.0|      hd854feb_11         4.0 MB  conda-forge
+    libgfortran-ng-11.2.0      |      h69a702a_11          19 KB  conda-forge
+    libgfortran5-11.2.0        |      h5c6108e_11         1.7 MB  conda-forge
+    libsanitizer-9.4.0         |      h79bfe98_11         6.9 MB  conda-forge
+    libstdcxx-devel_linux-64-9.4.0|      hd854feb_11         9.9 MB  conda-forge
+    libtiff-4.3.0              |       h6f004c6_2         614 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        94.2 MB
+
+The following NEW packages will be INSTALLED:
+
+  _r-mutex           conda-forge/noarch::_r-mutex-1.0.1-anacondar_1
+  backports          conda-forge/noarch::backports-1.0-py_2
+  backports.zoneinfo conda-forge/linux-64::backports.zoneinfo-0.2.1-py36h8f6f2f9_4
+  binutils_impl_lin~ conda-forge/linux-64::binutils_impl_linux-64-2.36.1-h193b22a_2
+  binutils_linux-64  conda-forge/linux-64::binutils_linux-64-2.36-hf3e587d_1
+  bwidget            conda-forge/linux-64::bwidget-1.9.14-ha770c72_0
+  bzip2              conda-forge/linux-64::bzip2-1.0.8-h7f98852_4
+  c-ares             conda-forge/linux-64::c-ares-1.17.2-h7f98852_0
+  cached-property    conda-forge/noarch::cached-property-1.5.2-hd8ed1ab_1
+  cached_property    conda-forge/noarch::cached_property-1.5.2-pyha770c72_1
+  cairo              conda-forge/linux-64::cairo-1.16.0-h6cf1ce9_1008
+  colorama           conda-forge/noarch::colorama-0.4.4-pyh9f0ad1d_0
+  curl               conda-forge/linux-64::curl-7.79.1-h2574ce0_1
+  font-ttf-dejavu-s~ conda-forge/noarch::font-ttf-dejavu-sans-mono-2.37-hab24e00_0
+  font-ttf-inconsol~ conda-forge/noarch::font-ttf-inconsolata-3.000-h77eed37_0
+  font-ttf-source-c~ conda-forge/noarch::font-ttf-source-code-pro-2.038-h77eed37_0
+  font-ttf-ubuntu    conda-forge/noarch::font-ttf-ubuntu-0.83-hab24e00_0
+  fontconfig         conda-forge/linux-64::fontconfig-2.13.1-hba837de_1005
+  fonts-conda-ecosy~ conda-forge/noarch::fonts-conda-ecosystem-1-0
+  fonts-conda-forge  conda-forge/noarch::fonts-conda-forge-1-0
+  freetype           conda-forge/linux-64::freetype-2.10.4-h0708190_1
+  fribidi            conda-forge/linux-64::fribidi-1.0.10-h36c2ea0_0
+  future             conda-forge/linux-64::future-0.18.2-py36h5fab9bb_3
+  gcc_impl_linux-64  conda-forge/linux-64::gcc_impl_linux-64-9.4.0-h03d3576_11
+  gcc_linux-64       conda-forge/linux-64::gcc_linux-64-9.4.0-h391b98a_1
+  gettext            pkgs/main/linux-64::gettext-0.21.0-hf68c758_0
+  gfortran_impl_lin~ conda-forge/linux-64::gfortran_impl_linux-64-9.4.0-h0003116_11
+  gfortran_linux-64  conda-forge/linux-64::gfortran_linux-64-9.4.0-hf0ab688_1
+  graphite2          pkgs/main/linux-64::graphite2-1.3.14-h23475e2_0
+  gsl                conda-forge/linux-64::gsl-2.6-he838d99_2
+  gxx_impl_linux-64  conda-forge/linux-64::gxx_impl_linux-64-9.4.0-h03d3576_11
+  gxx_linux-64       conda-forge/linux-64::gxx_linux-64-9.4.0-h0316aca_1
+  h5py               conda-forge/linux-64::h5py-3.1.0-nompi_py36hc1bc4f5_100
+  harfbuzz           conda-forge/linux-64::harfbuzz-3.0.0-h83ec7ef_1
+  hdf5               conda-forge/linux-64::hdf5-1.10.6-nompi_h6a2412b_1114
+  icu                conda-forge/linux-64::icu-68.1-h58526e2_0
+  importlib_resourc~ conda-forge/noarch::importlib_resources-5.2.2-pyhd8ed1ab_0
+  jbig               conda-forge/linux-64::jbig-2.1-h7f98852_2003
+  jinja2             conda-forge/noarch::jinja2-3.0.2-pyhd8ed1ab_0
+  jpeg               conda-forge/linux-64::jpeg-9d-h36c2ea0_0
+  kernel-headers_li~ conda-forge/noarch::kernel-headers_linux-64-2.6.32-he073ed8_14
+  krb5               conda-forge/linux-64::krb5-1.19.2-hcc1bbae_2
+  lerc               conda-forge/linux-64::lerc-3.0-h9c3ff4c_0
+  libblas            conda-forge/linux-64::libblas-3.9.0-11_linux64_openblas
+  libcblas           conda-forge/linux-64::libcblas-3.9.0-11_linux64_openblas
+  libcurl            conda-forge/linux-64::libcurl-7.79.1-h2574ce0_1
+  libdeflate         conda-forge/linux-64::libdeflate-1.8-h7f98852_0
+  libedit            pkgs/main/linux-64::libedit-3.1.20210714-h7f8727e_0
+  libev              conda-forge/linux-64::libev-4.33-h516909a_1
+  libgcc-devel_linu~ conda-forge/linux-64::libgcc-devel_linux-64-9.4.0-hd854feb_11
+  libgfortran-ng     conda-forge/linux-64::libgfortran-ng-11.2.0-h69a702a_11
+  libgfortran5       conda-forge/linux-64::libgfortran5-11.2.0-h5c6108e_11
+  libglib            conda-forge/linux-64::libglib-2.68.4-h174f98d_1
+  libiconv           conda-forge/linux-64::libiconv-1.16-h516909a_0
+  liblapack          conda-forge/linux-64::liblapack-3.9.0-11_linux64_openblas
+  libnghttp2         conda-forge/linux-64::libnghttp2-1.43.0-h812cca2_1
+  libopenblas        conda-forge/linux-64::libopenblas-0.3.17-pthreads_h8fe5266_1
+  libpng             conda-forge/linux-64::libpng-1.6.37-h21135ba_2
+  libsanitizer       conda-forge/linux-64::libsanitizer-9.4.0-h79bfe98_11
+  libssh2            conda-forge/linux-64::libssh2-1.10.0-ha56f1ee_2
+  libstdcxx-devel_l~ conda-forge/linux-64::libstdcxx-devel_linux-64-9.4.0-hd854feb_11
+  libtiff            conda-forge/linux-64::libtiff-4.3.0-h6f004c6_2
+  libuuid            conda-forge/linux-64::libuuid-2.32.1-h7f98852_1000
+  libwebp-base       conda-forge/linux-64::libwebp-base-1.2.1-h7f98852_0
+  libxcb             pkgs/main/linux-64::libxcb-1.14-h7b6447c_0
+  libxml2            conda-forge/linux-64::libxml2-2.9.12-h72842e0_0
+  lz4-c              conda-forge/linux-64::lz4-c-1.9.3-h9c3ff4c_1
+  make               conda-forge/linux-64::make-4.3-hd18ef5c_1
+  mappy              bioconda/linux-64::mappy-2.22-py36h30a8e3e_0
+  markupsafe         conda-forge/linux-64::markupsafe-2.0.1-py36h8f6f2f9_0
+  numpy              conda-forge/linux-64::numpy-1.19.5-py36hfc0c790_2
+  ont-tombo          bioconda/linux-64::ont-tombo-1.5.1-py36r36h39af1c6_2
+  pango              conda-forge/linux-64::pango-1.48.10-h54213e6_2
+  pcre               conda-forge/linux-64::pcre-8.45-h9c3ff4c_0
+  pixman             conda-forge/linux-64::pixman-0.40.0-h36c2ea0_0
+  pyfaidx            bioconda/noarch::pyfaidx-0.6.2-pyh5e36f6f_0
+  python_abi         conda-forge/linux-64::python_abi-3.6-2_cp36m
+  r-assertthat       conda-forge/noarch::r-assertthat-0.2.1-r36h6115d3f_2
+  r-backports        conda-forge/linux-64::r-backports-1.2.1-r36hcfec24a_0
+  r-base             conda-forge/linux-64::r-base-3.6.3-hbcea092_8
+  r-bit              conda-forge/linux-64::r-bit-4.0.4-r36hcfec24a_0
+  r-bit64            conda-forge/linux-64::r-bit64-4.0.5-r36hcfec24a_0
+  r-blob             conda-forge/noarch::r-blob-1.2.1-r36h6115d3f_1
+  r-brio             conda-forge/linux-64::r-brio-1.1.2-r36hcfec24a_0
+  r-cachem           conda-forge/linux-64::r-cachem-1.0.5-r36hcfec24a_0
+  r-callr            conda-forge/noarch::r-callr-3.7.0-r36hc72bb7e_0
+  r-cli              conda-forge/noarch::r-cli-2.5.0-r36hc72bb7e_0
+  r-colorspace       conda-forge/linux-64::r-colorspace-2.0_1-r36hcfec24a_0
+  r-crayon           conda-forge/noarch::r-crayon-1.4.1-r36hc72bb7e_0
+  r-dbi              conda-forge/noarch::r-dbi-1.1.1-r36hc72bb7e_0
+  r-dbplyr           conda-forge/noarch::r-dbplyr-2.1.1-r36hc72bb7e_0
+  r-desc             conda-forge/noarch::r-desc-1.3.0-r36hc72bb7e_0
+  r-diffobj          conda-forge/linux-64::r-diffobj-0.3.4-r36hcfec24a_0
+  r-digest           conda-forge/linux-64::r-digest-0.6.27-r36h03ef668_0
+  r-dplyr            conda-forge/linux-64::r-dplyr-1.0.6-r36h03ef668_1
+  r-ellipsis         conda-forge/linux-64::r-ellipsis-0.3.2-r36hcfec24a_0
+  r-evaluate         conda-forge/noarch::r-evaluate-0.14-r36h6115d3f_2
+  r-fansi            conda-forge/linux-64::r-fansi-0.4.2-r36hcfec24a_0
+  r-farver           conda-forge/linux-64::r-farver-2.1.0-r36h03ef668_0
+  r-fastmap          conda-forge/linux-64::r-fastmap-1.1.0-r36h03ef668_0
+  r-generics         conda-forge/noarch::r-generics-0.1.0-r36hc72bb7e_0
+  r-ggplot2          conda-forge/noarch::r-ggplot2-3.3.3-r36hc72bb7e_0
+  r-glue             conda-forge/linux-64::r-glue-1.4.2-r36hcfec24a_0
+  r-gridextra        conda-forge/noarch::r-gridextra-2.3-r36h6115d3f_1003
+  r-gtable           conda-forge/noarch::r-gtable-0.3.0-r36h6115d3f_3
+  r-isoband          conda-forge/linux-64::r-isoband-0.2.4-r36h03ef668_0
+  r-jsonlite         conda-forge/linux-64::r-jsonlite-1.7.2-r36hcfec24a_0
+  r-labeling         conda-forge/noarch::r-labeling-0.4.2-r36h142f84f_0
+  r-lattice          conda-forge/linux-64::r-lattice-0.20_44-r36hcfec24a_0
+  r-lifecycle        conda-forge/noarch::r-lifecycle-1.0.0-r36hc72bb7e_0
+  r-magrittr         conda-forge/linux-64::r-magrittr-2.0.1-r36hcfec24a_1
+  r-mass             conda-forge/linux-64::r-mass-7.3_54-r36hcfec24a_0
+  r-matrix           conda-forge/linux-64::r-matrix-1.3_3-r36he454529_0
+  r-memoise          conda-forge/noarch::r-memoise-2.0.0-r36hc72bb7e_0
+  r-mgcv             conda-forge/linux-64::r-mgcv-1.8_35-r36he454529_0
+  r-munsell          conda-forge/noarch::r-munsell-0.5.0-r36h6115d3f_1003
+  r-nlme             conda-forge/linux-64::r-nlme-3.1_152-r36h859d828_0
+  r-pillar           conda-forge/noarch::r-pillar-1.6.1-r36hc72bb7e_0
+  r-pkgconfig        conda-forge/noarch::r-pkgconfig-2.0.3-r36h6115d3f_1
+  r-pkgload          conda-forge/linux-64::r-pkgload-1.2.1-r36h03ef668_0
+  r-plogr            conda-forge/noarch::r-plogr-0.2.0-r36h6115d3f_1003
+  r-praise           conda-forge/noarch::r-praise-1.0.0-r36h6115d3f_1004
+  r-processx         conda-forge/linux-64::r-processx-3.5.2-r36hcfec24a_0
+  r-ps               conda-forge/linux-64::r-ps-1.6.0-r36hcfec24a_0
+  r-purrr            conda-forge/linux-64::r-purrr-0.3.4-r36hcfec24a_1
+  r-r6               conda-forge/noarch::r-r6-2.5.0-r36hc72bb7e_0
+  r-rcolorbrewer     conda-forge/noarch::r-rcolorbrewer-1.1_2-r36h6115d3f_1003
+  r-rcpp             conda-forge/linux-64::r-rcpp-1.0.6-r36h03ef668_0
+  r-rematch2         conda-forge/noarch::r-rematch2-2.1.2-r36h6115d3f_1
+  r-rlang            conda-forge/linux-64::r-rlang-0.4.11-r36hcfec24a_0
+  r-rprojroot        conda-forge/noarch::r-rprojroot-2.0.2-r36hc72bb7e_0
+  r-rsqlite          conda-forge/linux-64::r-rsqlite-2.2.5-r36h03ef668_0
+  r-rstudioapi       conda-forge/noarch::r-rstudioapi-0.13-r36hc72bb7e_0
+  r-scales           conda-forge/noarch::r-scales-1.1.1-r36h6115d3f_0
+  r-testthat         conda-forge/linux-64::r-testthat-3.0.2-r36h03ef668_0
+  r-tibble           conda-forge/linux-64::r-tibble-3.1.2-r36hcfec24a_0
+  r-tidyselect       conda-forge/linux-64::r-tidyselect-1.1.1-r36hc72bb7e_0
+  r-utf8             conda-forge/linux-64::r-utf8-1.2.1-r36hcfec24a_0
+  r-vctrs            conda-forge/linux-64::r-vctrs-0.3.8-r36hcfec24a_1
+  r-viridislite      conda-forge/noarch::r-viridislite-0.4.0-r36hc72bb7e_0
+  r-waldo            conda-forge/noarch::r-waldo-0.2.5-r36hc72bb7e_0
+  r-withr            conda-forge/noarch::r-withr-2.4.2-r36hc72bb7e_0
+  rpy2               conda-forge/linux-64::rpy2-2.9.4-py36r36hd767a1f_3
+  scipy              conda-forge/linux-64::scipy-1.5.3-py36h81d768a_1
+  sed                conda-forge/linux-64::sed-4.8-he412f7d_0
+  simplegeneric      conda-forge/noarch::simplegeneric-0.8.1-py_1
+  six                conda-forge/noarch::six-1.16.0-pyh6c4a22f_0
+  sysroot_linux-64   conda-forge/noarch::sysroot_linux-64-2.12-he073ed8_14
+  tktable            conda-forge/linux-64::tktable-2.10-hb7b940f_3
+  tqdm               conda-forge/noarch::tqdm-4.62.3-pyhd8ed1ab_0
+  tzdata             conda-forge/noarch::tzdata-2021c-he74cb21_0
+  tzlocal            conda-forge/linux-64::tzlocal-3.0-py36h5fab9bb_2
+  xorg-kbproto       conda-forge/linux-64::xorg-kbproto-1.0.7-h7f98852_1002
+  xorg-libice        conda-forge/linux-64::xorg-libice-1.0.10-h7f98852_0
+  xorg-libsm         conda-forge/linux-64::xorg-libsm-1.2.3-hd9c2040_1000
+  xorg-libx11        conda-forge/linux-64::xorg-libx11-1.7.2-h7f98852_0
+  xorg-libxext       conda-forge/linux-64::xorg-libxext-1.3.4-h7f98852_1
+  xorg-libxrender    conda-forge/linux-64::xorg-libxrender-0.9.10-h7f98852_1003
+  xorg-renderproto   conda-forge/linux-64::xorg-renderproto-0.11.1-h7f98852_1002
+  xorg-xextproto     conda-forge/linux-64::xorg-xextproto-7.3.0-h7f98852_1002
+  xorg-xproto        conda-forge/linux-64::xorg-xproto-7.0.31-h7f98852_1007
+  zipp               conda-forge/noarch::zipp-3.6.0-pyhd8ed1ab_0
+  zstd               conda-forge/linux-64::zstd-1.5.0-ha95c52a_0
+
+The following packages will be UPDATED:
+
+  certifi            pkgs/main::certifi-2020.12.5-py36h06a~ --> conda-forge::certifi-2021.5.30-py36h5fab9bb_0
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+libsanitizer-9.4.0   | 6.9 MB    |            |   0% libsanitizer-9.4.0   | 6.9 MB    | ####       |  41% libsanitizer-9.4.0   | 6.9 MB    | ########## | 100% libsanitizer-9.4.0   | 6.9 MB    | ########## | 100% 
+libgfortran-ng-11.2. | 19 KB     |            |   0% libgfortran-ng-11.2. | 19 KB     | ########## | 100% libgfortran-ng-11.2. | 19 KB     | ########## | 100% 
+gxx_impl_linux-64-9. | 10.6 MB   |            |   0% gxx_impl_linux-64-9. | 10.6 MB   | #####1     |  52% gxx_impl_linux-64-9. | 10.6 MB   | ########## | 100% gxx_impl_linux-64-9. | 10.6 MB   | ########## | 100% 
+libgfortran5-11.2.0  | 1.7 MB    |            |   0% libgfortran5-11.2.0  | 1.7 MB    | ########## | 100% libgfortran5-11.2.0  | 1.7 MB    | ########## | 100% 
+libstdcxx-devel_linu | 9.9 MB    |            |   0% libstdcxx-devel_linu | 9.9 MB    | #########1 |  92% libstdcxx-devel_linu | 9.9 MB    | ########## | 100% 
+libtiff-4.3.0        | 614 KB    |            |   0% libtiff-4.3.0        | 614 KB    | ########## | 100% libtiff-4.3.0        | 614 KB    | ########## | 100% 
+libdeflate-1.8       | 67 KB     |            |   0% libdeflate-1.8       | 67 KB     | ########## | 100% libdeflate-1.8       | 67 KB     | ########## | 100% 
+lerc-3.0             | 216 KB    |            |   0% lerc-3.0             | 216 KB    | ########## | 100% lerc-3.0             | 216 KB    | ########## | 100% 
+gfortran_impl_linux- | 14.6 MB   |            |   0% gfortran_impl_linux- | 14.6 MB   | #######1   |  71% gfortran_impl_linux- | 14.6 MB   | ########## | 100% gfortran_impl_linux- | 14.6 MB   | ########## | 100% 
+gcc_impl_linux-64-9. | 45.6 MB   |            |   0% gcc_impl_linux-64-9. | 45.6 MB   | #7         |  18% gcc_impl_linux-64-9. | 45.6 MB   | #####2     |  53% gcc_impl_linux-64-9. | 45.6 MB   | #########4 |  94% gcc_impl_linux-64-9. | 45.6 MB   | ########## | 100% 
+libgcc-devel_linux-6 | 4.0 MB    |            |   0% libgcc-devel_linux-6 | 4.0 MB    | ###5       |  36% libgcc-devel_linux-6 | 4.0 MB    | ####5      |  45% libgcc-devel_linux-6 | 4.0 MB    | ########## | 100% libgcc-devel_linux-6 | 4.0 MB    | ########## | 100% 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Requirement already satisfied: tensorflow==1.13.1 in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (1.13.1)
+Requirement already satisfied: six>=1.10.0 in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from tensorflow==1.13.1) (1.16.0)
+Requirement already satisfied: numpy>=1.13.3 in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from tensorflow==1.13.1) (1.19.5)
+Requirement already satisfied: keras-preprocessing>=1.0.5 in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from tensorflow==1.13.1) (1.1.2)
+Requirement already satisfied: wheel>=0.26 in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from tensorflow==1.13.1) (0.37.0)
+Requirement already satisfied: keras-applications>=1.0.6 in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from tensorflow==1.13.1) (1.0.8)
+Requirement already satisfied: astor>=0.6.0 in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from tensorflow==1.13.1) (0.8.1)
+Requirement already satisfied: absl-py>=0.1.6 in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from tensorflow==1.13.1) (0.14.1)
+Requirement already satisfied: gast>=0.2.0 in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from tensorflow==1.13.1) (0.5.2)
+Requirement already satisfied: tensorboard<1.14.0,>=1.13.0 in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from tensorflow==1.13.1) (1.13.1)
+Requirement already satisfied: grpcio>=1.8.6 in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from tensorflow==1.13.1) (1.41.0)
+Requirement already satisfied: protobuf>=3.6.1 in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from tensorflow==1.13.1) (3.18.1)
+Requirement already satisfied: tensorflow-estimator<1.14.0rc0,>=1.13.0 in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from tensorflow==1.13.1) (1.13.0)
+Requirement already satisfied: termcolor>=1.1.0 in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from tensorflow==1.13.1) (1.1.0)
+Requirement already satisfied: h5py in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from keras-applications>=1.0.6->tensorflow==1.13.1) (3.1.0)
+Requirement already satisfied: markdown>=2.6.8 in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from tensorboard<1.14.0,>=1.13.0->tensorflow==1.13.1) (3.3.4)
+Requirement already satisfied: werkzeug>=0.11.15 in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from tensorboard<1.14.0,>=1.13.0->tensorflow==1.13.1) (2.0.2)
+Requirement already satisfied: mock>=2.0.0 in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from tensorflow-estimator<1.14.0rc0,>=1.13.0->tensorflow==1.13.1) (4.0.3)
+Requirement already satisfied: importlib-metadata in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from markdown>=2.6.8->tensorboard<1.14.0,>=1.13.0->tensorflow==1.13.1) (4.8.1)
+Requirement already satisfied: dataclasses in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from werkzeug>=0.11.15->tensorboard<1.14.0,>=1.13.0->tensorflow==1.13.1) (0.8)
+Requirement already satisfied: cached-property in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from h5py->keras-applications>=1.0.6->tensorflow==1.13.1) (1.5.2)
+Requirement already satisfied: typing-extensions>=3.6.4 in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from importlib-metadata->markdown>=2.6.8->tensorboard<1.14.0,>=1.13.0->tensorflow==1.13.1) (3.10.0.2)
+Requirement already satisfied: zipp>=0.5 in /pod/2/li-lab/Ziwei/Anaconda3/envs/deepsignalenv/lib/python3.6/site-packages (from importlib-metadata->markdown>=2.6.8->tensorboard<1.14.0,>=1.13.0->tensorflow==1.13.1) (3.6.0)
+DeepSignal env is installed!
+-------------------------------------------------------------
+SUMNER/WINTER EPILOGUE
+-------------------------------------------------------------
+Job ID: 11028510
+Cluster: slurm_cluster
+User/Group: root/jaxuser
+State: COMPLETED (exit code 0)
+Cores: 1
+CPU Utilized: 00:03:29
+CPU Efficiency: 58.38% of 00:05:58 core-walltime
+Job Wall-clock time: 00:05:58
+Memory Utilized: 3.32 GB
+Memory Efficiency: 66.31% of 5.00 GB
+-------------------------------------------------------------
+       JobID  User   State    CPUTime Exit     MaxRSS        NodeList  Partition                   ReqTRES              Submit               Start                 End    Elapsed 
+------------ ----- ------- ---------- ---- ---------- --------------- ---------- ------------------------- ------------------- ------------------- ------------------- ---------- 
+11028510     c-pa+ COMPLE+   00:05:58  0:0                  sumner039    compute billing=1,cpu=1,mem=5120+ 2021-10-15T00:09:52 2021-10-15T00:10:25 2021-10-15T00:16:23   00:05:58 
+11028510.ba+       COMPLE+   00:05:58  0:0   3395.27M       sumner039                                      2021-10-15T00:10:25 2021-10-15T00:10:25 2021-10-15T00:16:23   00:05:58 
+11028510.ex+       COMPLE+   00:05:59  0:0      1.58M       sumner039                                      2021-10-15T00:10:25 2021-10-15T00:10:25 2021-10-15T00:16:24   00:05:59 
+-------------------------------------------------------------
