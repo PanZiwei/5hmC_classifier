@@ -14,3 +14,5 @@ ML:
 
 Develop machine learning pipeline:  https://medium.com/@cezinejang/introduction-to-machine-learning-pipelines-adb041120856
 https://machinelearningmastery.com/modeling-pipeline-optimization-with-scikit-learn/
+
+find -name "*pattern*" | wc -l

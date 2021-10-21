@@ -28,3 +28,4 @@ test/
 
 # Files to not ignore
 !/.gitignore
+!/result

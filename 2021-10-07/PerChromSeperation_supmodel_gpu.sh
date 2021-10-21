@@ -6,11 +6,13 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=ziwei.pan@jax.org
 
-#SBATCH --ntasks=25
+#SBATCH -p gpu
+#SBATCH --gres=gpu:1
+#SBATCH -q inference
+#SBATCH --time=06:00:00 # time
+#SBATCH --ntasks=1
 #SBATCH --nodes=1
-#SBATCH --qos=batch   #batch < 72h; long~300h
-#SBATCH --time=40:00:00
-#SBATCH --mem-per-cpu=10G
+#SBATCH --mem-per-cpu=40G # memory pool for all cores
 ###SLURM HEADER
 date
 source /projects/li-lab/Ziwei/Anaconda3/etc/profile.d/conda.sh

@@ -1,23 +1,25 @@
 #!/usr/bin/bash
 ###SLURM HEADER
-#SBATCH --job-name=sep_T4sup
-#SBATCH --output=/fastscratch/c-panz/2021-10-07/log/chrom_sep_sup_T4.log
-#SBATCH --err=/fastscratch/c-panz/2021-10-07/log/chrom_sep_sup_T4.err
+#SBATCH --job-name=sep_T4sup_5.0.11
+#SBATCH --output=/fastscratch/c-panz/2021-10-07/log/chrom_sep_sup_T4_5.0.11.log
+#SBATCH --err=/fastscratch/c-panz/2021-10-07/log/chrom_sep_sup_T4_5.0.11.err
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=ziwei.pan@jax.org
 
-#SBATCH --ntasks=25
+#SBATCH -p gpu
+#SBATCH --gres=gpu:1
+#SBATCH -q inference
+#SBATCH --time=06:00:00 # time
+#SBATCH --ntasks=1
 #SBATCH --nodes=1
-#SBATCH --qos=batch   #batch < 72h; long~300h
-#SBATCH --time=40:00:00
-#SBATCH --mem-per-cpu=10G
+#SBATCH --mem-per-cpu=40G # memory pool for all cores
 ###SLURM HEADER
 date
 source /projects/li-lab/Ziwei/Anaconda3/etc/profile.d/conda.sh
 conda activate nanomodel
 
 model=sup
-version=5.0.14
+version=5.0.11
 sample=T4LambdaTF1
 
 script_dir=/pod/2/li-lab/Ziwei/Nanopore/daily/2021-10-07
@@ -29,5 +31,6 @@ fast5_dir=/fastscratch/c-panz/2021-10-07/guppy$version.$model.tombo/$sample
 ### Seperate the fast5 files based on chromosome
 script_dir=/pod/2/li-lab/Ziwei/Nanopore/daily/2021-09-30
 output_dir=$fast5_dir.PerChrom
+
 python $script_dir/guppy.tombo_PerChromSeparation.py $fast5_dir $output_dir
 echo "###Per chromosome separation DONE"
