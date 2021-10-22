@@ -16,3 +16,11 @@ Develop machine learning pipeline:  https://medium.com/@cezinejang/introduction-
 https://machinelearningmastery.com/modeling-pipeline-optimization-with-scikit-learn/
 
 find -name "*pattern*" | wc -l
+
+How to implement ratio-based SMOTE oversampling while CV-ing dataset: https://stackoverflow.com/a/51493479
+
+Save the best parameter; https://stackoverflow.com/questions/34143829/sklearn-how-to-save-a-model-created-from-a-pipeline-and-gridsearchcv-using-jobli
+```python
+import joblib
+joblib.dump(rf_random_search.best_estimator_, os.path.join(output_path,pkl_model))
+```
