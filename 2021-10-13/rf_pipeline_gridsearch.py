@@ -7,6 +7,9 @@ The script is for:
 3. Train the the classifier on the training fold for random forest with gridsearch
 4. Validate the classifer on the reamining fold
 5. Save the classification report and confusion matrix plotting for default parameter
+
+Usage:
+python $script_dir/rf_pipeline_gridsearch.py --input_path $input_file --output_path output_path
 """
 import pandas as pd
 import numpy as np

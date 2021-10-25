@@ -8,9 +8,9 @@
 
 #SBATCH --ntasks=50
 #SBATCH --nodes=1
-#SBATCH --qos=long   #batch < 72h; long~300h
-#SBATCH --time=96:00:00
-#SBATCH --mem=150G
+#SBATCH --qos=batch   #batch < 72h; long~300h
+#SBATCH --time=72:00:00
+#SBATCH --mem=750G
 ###SLURM HEADER
 date
 source /projects/li-lab/Ziwei/Anaconda3/etc/profile.d/conda.sh

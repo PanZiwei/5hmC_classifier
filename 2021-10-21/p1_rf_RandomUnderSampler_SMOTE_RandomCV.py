@@ -37,7 +37,6 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Pipeline1 for Megalodon result")
     parser.add_argument('--input_path', required=True, help='input path of fast5 files')
     parser.add_argument('--output_path', required=True, help='output path of fast5 files')
-    
     parser.add_argument('--pkl_model', required=False,
                         default='p1_model.pkl',
                         help='pkl model name for best parameter. default p1_model.pkl'),
@@ -104,8 +103,9 @@ if __name__ == '__main__':
     ##parameter testing
     #assign the parameters to the named step in the pipeline
     params = {
-        'u__sampling_strategy' : [{0: 59832, 1:93072, 2:1662}, {0: 29916, 1:46536, 2:1662}, {0: 14958, 1:23268, 2:1662}, 
-                                        {0: 598320, 1:930720, 2:1662}, {0: 299160, 1:465360, 2:1662}],
+        'u__sampling_strategy' : [{0: 39888, 1:62048, 2:1108}, {0: 9972, 1:15512, 2:1108}, 
+                                  {0: 19944, 1:31024, 2:1108}, {0: 398880, 1:620480, 2:1108}, 
+                                  {0: 199440, 1:310240, 2:1108}],
         'o__k_neighbors':[5, 10, 50, 100],
         'm__n_estimators': [i for i in range(60, 150, 20)], # number of trees in the random forest
         'm__max_features': ['auto'], # number of features in consideration at every split

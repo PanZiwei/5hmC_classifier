@@ -1,4 +1,0 @@
-Data is loading!
-Spliting is done!
-Current Time = 09:23:38, 10/13/21
-Fitting 3 folds for each of 30 candidates, totalling 90 fits

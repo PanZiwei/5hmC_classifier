@@ -19,8 +19,18 @@ find -name "*pattern*" | wc -l
 
 How to implement ratio-based SMOTE oversampling while CV-ing dataset: https://stackoverflow.com/a/51493479
 
-Save the best parameter; https://stackoverflow.com/questions/34143829/sklearn-how-to-save-a-model-created-from-a-pipeline-and-gridsearchcv-using-jobli
+Save the best parameter: https://stackoverflow.com/questions/34143829/sklearn-how-to-save-a-model-created-from-a-pipeline-and-gridsearchcv-using-jobli
 ```python
 import joblib
 joblib.dump(rf_random_search.best_estimator_, os.path.join(output_path,pkl_model))
 ```
+
+Add/remove path:
+```python
+import sys
+>>> sys.path.append('/home/sergey')
+>>> sys.path
+['', ..., '/home/sergey']
+>>> sys.path.remove('/home/sergey')
+>>> sys.path
+```python

@@ -30,7 +30,7 @@ matplotlib.use('Agg')
 #Pre-process the dataset
 #input_path='/pod/2/li-lab/Ziwei/Nanopore/daily/test/'
 input_path='/pod/2/li-lab/Ziwei/Nanopore/results/megalodon2.3.4_guppy5.0.14'
-output_path='/pod/2/li-lab/Ziwei/Nanopore/daily/2021-10-08'
+output_path='/pod/2/li-lab/Ziwei/Nanopore/daily/2021-10-08/2021-10-24_repeat'
 
 df=pd.read_csv(os.path.join(input_path, 'total.Megalodon.per_read.prob.bed.gz'),compression='gzip', sep='\t')
 #df=pd.read_csv(os.path.join(input_path, 'total.test.bed'), sep='\t')

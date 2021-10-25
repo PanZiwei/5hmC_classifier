@@ -1,0 +1,16 @@
+Argument is done!
+Model is loading!
+Best model parameter:
+Pipeline(steps=[('smote', SMOTE(random_state=42)),
+                ('rfr',
+                 RandomForestClassifier(max_depth=5, min_samples_leaf=2,
+                                        n_estimators=80, random_state=42))])
+Data is loading!
+Spliting is done!
+Before the pipeline:
+ y_train:Counter({1: 9301876, 0: 5894606, 2: 1662}),
+ y_test: Counter({1: 2325469, 0: 1473652, 2: 415})
+cross-validated metrics on training dataset:[0.62976989 0.6273665  0.62823106]
+Mean cross-validated metrics: 0.6284558181015528
+Test score: 0.908213266040906
+Saving is done!
