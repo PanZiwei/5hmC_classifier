@@ -1,0 +1,144 @@
+/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/sklearn/model_selection/_validation.py:619: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/sklearn/model_selection/_validation.py", line 598, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/pipeline.py", line 262, in fit
+    Xt, yt = self._fit(X, y, **fit_params_steps)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/pipeline.py", line 226, in _fit
+    **fit_params_steps[name],
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/joblib/memory.py", line 349, in __call__
+    return self.func(*args, **kwargs)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/pipeline.py", line 388, in _fit_resample_one
+    X_res, y_res = sampler.fit_resample(X, y, **fit_params)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/base.py", line 80, in fit_resample
+    self.sampling_strategy, y, self._sampling_type
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 521, in check_sampling_strategy
+    sorted(_sampling_strategy_dict(sampling_strategy, y, sampling_type).items())
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 310, in _sampling_strategy_dict
+    f"With under-sampling methods, the number of"
+ValueError: With under-sampling methods, the number of samples in a class should be less or equal to the original number of samples. Originally, there is 3929737 samples and 3988800 samples are asked.
+
+  FitFailedWarning)
+/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/sklearn/model_selection/_validation.py:619: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/sklearn/model_selection/_validation.py", line 598, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/pipeline.py", line 262, in fit
+    Xt, yt = self._fit(X, y, **fit_params_steps)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/pipeline.py", line 226, in _fit
+    **fit_params_steps[name],
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/joblib/memory.py", line 349, in __call__
+    return self.func(*args, **kwargs)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/pipeline.py", line 388, in _fit_resample_one
+    X_res, y_res = sampler.fit_resample(X, y, **fit_params)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/base.py", line 80, in fit_resample
+    self.sampling_strategy, y, self._sampling_type
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 521, in check_sampling_strategy
+    sorted(_sampling_strategy_dict(sampling_strategy, y, sampling_type).items())
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 310, in _sampling_strategy_dict
+    f"With under-sampling methods, the number of"
+ValueError: With under-sampling methods, the number of samples in a class should be less or equal to the original number of samples. Originally, there is 3929737 samples and 3988800 samples are asked.
+
+  FitFailedWarning)
+/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/sklearn/model_selection/_validation.py:619: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/sklearn/model_selection/_validation.py", line 598, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/pipeline.py", line 262, in fit
+    Xt, yt = self._fit(X, y, **fit_params_steps)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/pipeline.py", line 226, in _fit
+    **fit_params_steps[name],
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/joblib/memory.py", line 349, in __call__
+    return self.func(*args, **kwargs)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/pipeline.py", line 388, in _fit_resample_one
+    X_res, y_res = sampler.fit_resample(X, y, **fit_params)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/base.py", line 80, in fit_resample
+    self.sampling_strategy, y, self._sampling_type
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 521, in check_sampling_strategy
+    sorted(_sampling_strategy_dict(sampling_strategy, y, sampling_type).items())
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 310, in _sampling_strategy_dict
+    f"With under-sampling methods, the number of"
+ValueError: With under-sampling methods, the number of samples in a class should be less or equal to the original number of samples. Originally, there is 3929738 samples and 3988800 samples are asked.
+
+  FitFailedWarning)
+/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/sklearn/model_selection/_validation.py:619: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/sklearn/model_selection/_validation.py", line 598, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/pipeline.py", line 262, in fit
+    Xt, yt = self._fit(X, y, **fit_params_steps)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/pipeline.py", line 226, in _fit
+    **fit_params_steps[name],
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/joblib/memory.py", line 349, in __call__
+    return self.func(*args, **kwargs)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/pipeline.py", line 388, in _fit_resample_one
+    X_res, y_res = sampler.fit_resample(X, y, **fit_params)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/base.py", line 80, in fit_resample
+    self.sampling_strategy, y, self._sampling_type
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 521, in check_sampling_strategy
+    sorted(_sampling_strategy_dict(sampling_strategy, y, sampling_type).items())
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 310, in _sampling_strategy_dict
+    f"With under-sampling methods, the number of"
+ValueError: With under-sampling methods, the number of samples in a class should be less or equal to the original number of samples. Originally, there is 3929737 samples and 4188240 samples are asked.
+
+  FitFailedWarning)
+/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/sklearn/model_selection/_validation.py:619: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/sklearn/model_selection/_validation.py", line 598, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/pipeline.py", line 262, in fit
+    Xt, yt = self._fit(X, y, **fit_params_steps)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/pipeline.py", line 226, in _fit
+    **fit_params_steps[name],
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/joblib/memory.py", line 349, in __call__
+    return self.func(*args, **kwargs)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/pipeline.py", line 388, in _fit_resample_one
+    X_res, y_res = sampler.fit_resample(X, y, **fit_params)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/base.py", line 80, in fit_resample
+    self.sampling_strategy, y, self._sampling_type
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 521, in check_sampling_strategy
+    sorted(_sampling_strategy_dict(sampling_strategy, y, sampling_type).items())
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 310, in _sampling_strategy_dict
+    f"With under-sampling methods, the number of"
+ValueError: With under-sampling methods, the number of samples in a class should be less or equal to the original number of samples. Originally, there is 3929737 samples and 4188240 samples are asked.
+
+  FitFailedWarning)
+/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/sklearn/model_selection/_validation.py:619: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+Traceback (most recent call last):
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/sklearn/model_selection/_validation.py", line 598, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/pipeline.py", line 262, in fit
+    Xt, yt = self._fit(X, y, **fit_params_steps)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/pipeline.py", line 226, in _fit
+    **fit_params_steps[name],
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/joblib/memory.py", line 349, in __call__
+    return self.func(*args, **kwargs)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/pipeline.py", line 388, in _fit_resample_one
+    X_res, y_res = sampler.fit_resample(X, y, **fit_params)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/base.py", line 80, in fit_resample
+    self.sampling_strategy, y, self._sampling_type
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 521, in check_sampling_strategy
+    sorted(_sampling_strategy_dict(sampling_strategy, y, sampling_type).items())
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/imblearn/utils/_validation.py", line 310, in _sampling_strategy_dict
+    f"With under-sampling methods, the number of"
+ValueError: With under-sampling methods, the number of samples in a class should be less or equal to the original number of samples. Originally, there is 3929738 samples and 4188240 samples are asked.
+
+  FitFailedWarning)
+/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/sklearn/model_selection/_search.py:925: UserWarning: One or more of the test scores are non-finite: [0.62778184 0.62822863 0.62821554 0.62841305 0.62815151 0.628391
+ 0.62821836 0.62839228 0.62840894 0.62833695 0.62851831 0.62834588
+ 0.62813256 0.62829109 0.62827548 0.62863332 0.62846904 0.62843795
+ 0.62835385 0.62825103 0.62818974 0.62814423 0.62821726 0.62820621
+ 0.62837071 0.62825323 0.62837873 0.62828297 0.62832993 0.62817711
+ 0.62840187 0.62847487 0.62819071 0.62839821 0.62834996 0.62840677
+ 0.62835612        nan        nan]
+  category=UserWarning
+/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/sklearn/model_selection/_search.py:925: UserWarning: One or more of the train scores are non-finite: [0.62779624 0.62825702 0.62823646 0.62843054 0.62816759 0.628415
+ 0.62823498 0.62840962 0.62843116 0.62835493 0.62853401 0.62836099
+ 0.6281536  0.62831182 0.62829737 0.62864917 0.62849378 0.62845822
+ 0.62837192 0.6282791  0.62820997 0.62816878 0.6282418  0.62823547
+ 0.62839427 0.6282768  0.62839937 0.62830062 0.62834748 0.62819786
+ 0.62842262 0.62850547 0.62821537 0.62842358 0.62837468 0.62842985
+ 0.62838058        nan        nan]
+  category=UserWarning
+/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/sklearn/utils/validation.py:72: FutureWarning: Pass labels=None as keyword args. From version 1.0 (renaming of 0.25) passing these as positional arguments will result in an error
+  "will result in an error", FutureWarning)

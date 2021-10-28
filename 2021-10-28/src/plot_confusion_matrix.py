@@ -1,8 +1,7 @@
 #! /usr/bin/env python3
 """
-Oct 19, 2021, Ziwei Pan
-The script is to generate the confusion matrix for the modelling
-Same version: /2021-10-19/plot_confusion_matrix.py
+Oct 28, 2021, Ziwei Pan
+The script is to generate the confusion matrix for the modeling
 """
 from sklearn.metrics import confusion_matrix
 import seaborn as sns
@@ -11,7 +10,7 @@ import numpy as np
 import pandas as pd
 
 #https://gist.github.com/hitvoice/36cf44689065ca9b927431546381a3f7
-def plot_cm(y_true, y_pred, filename, label=['5C', '5mC', '5hmC'], figsize=(10,10)):
+def plot_cm(y_true, y_pred, filename, label, figsize=(10,10)):
     """
     Generate matrix plot of confusion matrix with annotations.
     args: 

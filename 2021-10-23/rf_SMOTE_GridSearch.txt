@@ -147,3 +147,11 @@ Fitting 3 folds for each of 48 candidates, totalling 144 fits
 [CV 3/3] END m__bootstrap=True, m__max_depth=10, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=2, m__n_estimators=100, o__k_neighbors=10;, score=(train=0.632, test=0.632) total time=108.1min
 [CV 3/3] END m__bootstrap=True, m__max_depth=10, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=2, m__n_estimators=80, o__k_neighbors=10;, score=(train=0.632, test=0.632) total time=106.5min
 [CV 3/3] END m__bootstrap=True, m__max_depth=10, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=5, m__n_estimators=100, o__k_neighbors=10;, score=(train=0.632, test=0.632) total time=70.2min
+Current Time = 23:24:25, 10/24/21
+Random search is done!
+Best Parameters:  {'m__bootstrap': True, 'm__max_depth': 10, 'm__max_features': 'auto', 'm__min_samples_leaf': 2, 'm__min_samples_split': 2, 'm__n_estimators': 100, 'o__k_neighbors': 5}  
+
+Best f1_score in cv: 0.6344631766037124 
+
+Test score: 0.633298239631888
+Saving is done!

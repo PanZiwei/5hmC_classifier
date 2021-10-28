@@ -148,6 +148,6 @@ if __name__ == '__main__':
     target_class = ['5C', '5mC', '5hmC']
     report = classification_report(y_test, y_pred, target_names=target_class, output_dict=True)
     report = pd.DataFrame(report).transpose()
-    report.to_csv(os.path.join(output_path, class_report), header = True, index= None, sep = ',', float_format='%.4f')
+    report.to_csv(os.path.join(output_path, class_report), header = True, index= True, sep = ',', float_format='%.4f')
     
     print("Saving is done!")

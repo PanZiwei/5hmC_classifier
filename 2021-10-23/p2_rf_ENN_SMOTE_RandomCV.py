@@ -97,8 +97,11 @@ if __name__ == '__main__':
     over = SMOTE(sampling_strategy='not majority', random_state = 42, n_jobs = -1)
     steps = [('u', under), ('o', over), ('m', rf_model)]
 
-    pipeline = imbpipeline(steps=steps)
+    pipeline = imbpipeline(steps=steps)       
 
+    # Define cross-validation fold
+    stratified_kfold = StratifiedKFold(n_splits = 3, random_state = 42, shuffle = True)
+    
     #https://stackoverflow.com/questions/51480776/how-to-implement-ratio-based-smote-oversampling-while-cv-ing-dataset
     ##parameter testing
     #assign the parameters to the named step in the pipeline
@@ -111,11 +114,7 @@ if __name__ == '__main__':
               'm__min_samples_split': [2,5,10], # minimum sample number to split a node
               'm__min_samples_leaf': [1,2], # minimum sample number that can be stored in a leaf node
               'm__bootstrap': [True, False]} # method used to sample data points"
-          
 
-    # Define cross-validation fold
-    stratified_kfold = StratifiedKFold(n_splits = 3, random_state = 42, shuffle = True)
-    
     # RandomSearch
     pipe_search = RandomizedSearchCV(estimator = pipeline, 
                                      param_distributions = params, 

@@ -89,6 +89,10 @@ if __name__ == '__main__':
     model = RandomForestClassifier(random_state= 13, n_jobs = -1) ##2021-10-08: not sure whether it is the key to get the best result or not
     rf_pipeline = imbpipeline(steps = [('o', over), ('m', model)])
 
+    
+    # Define cross-validation fold
+    stratified_kfold = StratifiedKFold(n_splits = 3, random_state = 42, shuffle = True)
+
     # Define parameter
     #Best: max_depth=5, min_samples_leaf=2,n_estimators=80, random_state=42
     #m__bootstrap=True, m__max_depth=5, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=5, m__n_estimators=80, 
@@ -102,10 +106,6 @@ if __name__ == '__main__':
         'm__min_samples_leaf': [1,2], # minimum sample number that can be stored in a leaf node
         'm__bootstrap': [True] # method used to sample data points"
              } 
-
-    # Define cross-validation fold
-    stratified_kfold = StratifiedKFold(n_splits = 3, random_state = 42, shuffle = True)
-
 
     ##random search
     pipe_search = RandomizedSearchCV(estimator = rf_pipeline, 
@@ -150,6 +150,6 @@ if __name__ == '__main__':
     target_class = ['5C', '5mC', '5hmC']
     report = classification_report(y_test, y_pred, target_names=target_class, output_dict=True)
     report = pd.DataFrame(report).transpose()
-    report.to_csv(os.path.join(output_path, class_report), header = True, index= None, sep = ',', float_format='%.4f')
+    report.to_csv(os.path.join(output_path, class_report), header = True, index= True, sep = ',', float_format='%.4f')
     
     print("Saving is done!")

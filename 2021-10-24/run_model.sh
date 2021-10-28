@@ -13,9 +13,7 @@
 #SBATCH --mem=200G
 ###SLURM HEADER
 
-"""
-The script is used to run the model from 2021-10-08
-"""
+###The script is used to run the model from 2021-10-08
 
 date
 source /projects/li-lab/Ziwei/Anaconda3/etc/profile.d/conda.sh
