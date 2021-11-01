@@ -74,6 +74,7 @@ if __name__ == '__main__':
     output_path = args.output_path
     model_path = args.model_path
     
+    label=['5C', '5mC', '5hmC']
     dataset = 'test'
     
     if model_path.endswith(".pkl"):

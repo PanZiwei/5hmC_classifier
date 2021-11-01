@@ -1,0 +1,8 @@
+Model is loading!
+Before the pipeline:
+ y_train:Counter({1: 9301876, 0: 5894606, 2: 1662}),
+ y_test: Counter({1: 2325469, 0: 1473652, 2: 415})
+cross-validated metrics on training dataset:[0.63026258 0.62730845 0.62832892]
+Mean cross-validated metrics: 0.6286333169961849
+Test score: 0.8957470070029604
+saving is done!

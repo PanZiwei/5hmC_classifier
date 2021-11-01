@@ -1,0 +1,10 @@
+Argument is done!
+Data is loading!
+Spliting is done!
+Before the pipeline:
+ y_train:Counter({1: 9301876, 0: 5894606, 2: 1662}),
+ y_test: Counter({1: 2325469, 0: 1473652, 2: 415})
+Mean accuracy on cv: 0.894
+Mean recall_macro on cv: 0.881
+Mean f1_macro on cv: 0.628
+Accuracy on testing dataset: 0.893609903946166

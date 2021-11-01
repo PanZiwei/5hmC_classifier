@@ -25,12 +25,13 @@ import joblib
 joblib.dump(rf_random_search.best_estimator_, os.path.join(output_path,pkl_model))
 ```
 
-Add/remove path:
-```python
-import sys
->>> sys.path.append('/home/sergey')
->>> sys.path
-['', ..., '/home/sergey']
->>> sys.path.remove('/home/sergey')
->>> sys.path
-```python
+
+
+t-SNE plotting:
+
+t-Distributed Stochastic Neighbor Embedding (t-SNE) Hyperparameter Tuning for n_component: https://pyshark.com/visualization-of-multidimensional-datasets-using-t-sne-in-python/#t-distributed-stochastic-neighbor-embedding-in-python
+
+
+Data visualization: 
+1. seaborn color palette: https://seaborn.pydata.org/tutorial/color_palettes.html
+2. Matlib color palette: https://matplotlib.org/stable/tutorials/colors/colormaps.html
