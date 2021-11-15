@@ -1,0 +1,20 @@
+Final log to test the formal results
+
+2021/11/02
+!!!!I found that the input for Guppy v5.0.14 is wrong for T4_5hmC, so I am rerunning the Guppy -> Tombo process
+
+(base) [c-panz@winter-log1 ~]$ cd /pod/2/li-lab/Ziwei/Nanopore/daily/script/process_data
+(base) [c-panz@winter-log1 process_data]$ sbatch 2_singularity_Guppy5.0.14_tombo1.5.1_T4lambda.sh
+Submitted batch job 215690
+
+1. Get the list for T4 fast5 files after the correct input
+(nanomodel_python3.8) [c-panz@sumner-log1 1_process_data]$ cd /pod/2/li-lab/Ziwei/Nanopore/daily/script/1_process_data
+(nanomodel_python3.8) [c-panz@sumner-log1 1_process_data]$ sbatch 3_get_fas5_list_chrom.sh
+Submitted batch job 11453154
+
+2. Seperate the chromosome again to get the T4 fast5 files
+(nanomodel_python3.8) [c-panz@sumner-log1 1_process_data]$ sbatch 3_seperate_chromosome_supmodel_T4lambda.sh
+Submitted batch job 11453155
+
+Need to be done:
+3. Change the Pipeline_summary for Guppy v5.0.11 part: https://app.zenhub.com/workspaces/development-track-61561c01f6774700126673a6/issues/panziwei/5hmc_classifier/16

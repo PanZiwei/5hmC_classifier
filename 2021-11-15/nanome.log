@@ -1,0 +1,578 @@
+Mon Nov 15 11:55:35 EST 2021
+N E X T F L O W  ~  version 21.04.0
+Launching `TheJacksonLaboratory/nanome` [boring_wescoff] - revision: c5659809ec [master]
+WARN: DSL 2 PREVIEW MODE IS DEPRECATED - USE THE STABLE VERSION INSTEAD -- Read more at https://www.nextflow.io/docs/latest/dsl2.html#dsl2-migration-notes
+NANOME - NF PIPELINE (v1.3.5)
+by Li Lab at The Jackson Laboratory
+https://github.com/TheJacksonLaboratory/nanome
+=================================
+dsname              : CIEcoli
+input               : https://github.com/TheJacksonLaboratory/nanome/raw/master/test_data/ecoli_ci_test_fast5.tar.gz
+genome              : ecoli
+
+Running settings   : --------
+processors          : 2
+runNanopolish       : Yes
+runMegalodon        : Yes
+runDeepSignal       : Yes
+runGuppy            : Yes
+
+Pipeline settings  : --------
+Working dir         : /gpfs/ctgs0/fastscratch/c-panz/nanome/work
+Output dir          : outputs
+Launch dir          : /gpfs/ctgs0/fastscratch/c-panz/nanome
+Script dir          : /home/c-panz/.nextflow/assets/TheJacksonLaboratory/nanome
+User                : c-panz
+Profile             : test,singularity
+Config Files        : /home/c-panz/.nextflow/assets/TheJacksonLaboratory/nanome/nextflow.config
+Pipeline Release    : master
+Container           : singularity - docker://liuyangzzu/nanome:latest
+=================================
+[-        ] process > EnvCheck -
+[-        ] process > Untar    -
+[-        ] process > Basecall -
+
+[-        ] process > EnvCheck   -
+[-        ] process > Untar      -
+[-        ] process > Basecall   -
+[-        ] process > QCExport   -
+[-        ] process > Resquiggle -
+[-        ] process > Nanopolish -
+[-        ] process > NplshComb  -
+[-        ] process > Megalodon  -
+[-        ] process > MgldnComb  -
+[-        ] process > DeepSignal -
+[-        ] process > DpSigComb  -
+[-        ] process > Guppy      -
+[-        ] process > GuppyComb  -
+
+[-        ] process > EnvCheck   -
+[-        ] process > Untar      -
+[-        ] process > Basecall   -
+[-        ] process > QCExport   -
+[-        ] process > Resquiggle -
+[-        ] process > Nanopolish -
+[-        ] process > NplshComb  -
+[-        ] process > Megalodon  -
+[-        ] process > MgldnComb  -
+[-        ] process > DeepSignal -
+[-        ] process > DpSigComb  -
+[-        ] process > Guppy      -
+[-        ] process > GuppyComb  -
+[-        ] process > Report     -
+
+[-        ] process > EnvCheck   -
+[-        ] process > Untar      -
+[-        ] process > Basecall   -
+[-        ] process > QCExport   -
+[-        ] process > Resquiggle -
+[-        ] process > Nanopolish -
+[-        ] process > NplshComb  -
+[-        ] process > Megalodon  -
+[-        ] process > MgldnComb  -
+[-        ] process > DeepSignal -
+[-        ] process > DpSigComb  -
+[-        ] process > Guppy      -
+[-        ] process > GuppyComb  -
+[-        ] process > Report     -
+Pulling Singularity image docker://liuyangzzu/nanome:latest [cache /gpfs/ctgs0/fastscratch/c-panz/nanome/local_singularity_cache/liuyangzzu-nanome-latest.img]
+
+[-        ] process > EnvCheck   -
+[-        ] process > Untar      -
+[-        ] process > Basecall   -
+[-        ] process > QCExport   -
+[-        ] process > Resquiggle -
+[-        ] process > Nanopolish -
+[-        ] process > NplshComb  -
+[-        ] process > Megalodon  -
+[-        ] process > MgldnComb  -
+[-        ] process > DeepSignal -
+[-        ] process > DpSigComb  -
+[-        ] process > Guppy      -
+[-        ] process > GuppyComb  -
+[-        ] process > Report     -
+Pulling Singularity image docker://liuyangzzu/nanome:latest [cache /gpfs/ctgs0/fastscratch/c-panz/nanome/local_singularity_cache/liuyangzzu-nanome-latest.img]
+Staging foreign file: https://zenodo.org/record/5513090/files/ecoli.tar.gz
+
+[-        ] process > EnvCheck   -
+[-        ] process > Untar      -
+[-        ] process > Basecall   -
+[-        ] process > QCExport   -
+[-        ] process > Resquiggle -
+[-        ] process > Nanopolish -
+[-        ] process > NplshComb  -
+[-        ] process > Megalodon  -
+[-        ] process > MgldnComb  -
+[-        ] process > DeepSignal -
+[-        ] process > DpSigComb  -
+[-        ] process > Guppy      -
+[-        ] process > GuppyComb  -
+[-        ] process > Report     -
+Pulling Singularity image docker://liuyangzzu/nanome:latest [cache /gpfs/ctgs0/fastscratch/c-panz/nanome/local_singularity_cache/liuyangzzu-nanome-latest.img]
+Staging foreign file: https://zenodo.org/record/5513090/files/ecoli.tar.gz
+Staging foreign file: https://zenodo.org/record/5513090/files/megalodon_model.tar.gz
+
+executor >  local (1)
+[-        ] process > EnvCheck                       [  0%] 0 of 1
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [  0%] 0 of 1
+[-        ] process > Basecall                       -
+[-        ] process > QCExport                       -
+[-        ] process > Resquiggle                     -
+[-        ] process > Nanopolish                     -
+[-        ] process > NplshComb                      -
+[-        ] process > Megalodon                      -
+[-        ] process > MgldnComb                      -
+[-        ] process > DeepSignal                     -
+[-        ] process > DpSigComb                      -
+[-        ] process > Guppy                          -
+[-        ] process > GuppyComb                      -
+[-        ] process > Report                         -
+
+
+
+
+executor >  local (1)
+[-        ] process > EnvCheck                       [  0%] 0 of 1
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [  0%] 0 of 1
+[-        ] process > Basecall                       -
+[-        ] process > QCExport                       -
+[-        ] process > Resquiggle                     -
+[-        ] process > Nanopolish                     -
+[-        ] process > NplshComb                      -
+[-        ] process > Megalodon                      -
+[-        ] process > MgldnComb                      -
+[-        ] process > DeepSignal                     -
+[-        ] process > DpSigComb                      -
+[-        ] process > Guppy                          -
+[-        ] process > GuppyComb                      -
+[-        ] process > Report                         -
+
+
+
+
+executor >  local (2)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [  0%] 0 of 1
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[-        ] process > Basecall                       [  0%] 0 of 1
+[-        ] process > QCExport                       -
+[-        ] process > Resquiggle                     -
+[-        ] process > Nanopolish                     -
+[-        ] process > NplshComb                      -
+[-        ] process > Megalodon                      -
+[-        ] process > MgldnComb                      -
+[-        ] process > DeepSignal                     -
+[-        ] process > DpSigComb                      -
+[-        ] process > Guppy                          -
+[-        ] process > GuppyComb                      -
+[-        ] process > Report                         -
+
+executor >  local (3)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [  0%] 0 of 1
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [  0%] 0 of 1
+[-        ] process > QCExport                       -
+[-        ] process > Resquiggle                     -
+[-        ] process > Nanopolish                     -
+[-        ] process > NplshComb                      -
+[-        ] process > Megalodon                      -
+[-        ] process > MgldnComb                      -
+[-        ] process > DeepSignal                     -
+[-        ] process > DpSigComb                      -
+[-        ] process > Guppy                          -
+[-        ] process > GuppyComb                      -
+[-        ] process > Report                         -
+
+executor >  local (3)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [  0%] 0 of 1
+[-        ] process > QCExport                       -
+[-        ] process > Resquiggle                     -
+[-        ] process > Nanopolish                     -
+[-        ] process > NplshComb                      -
+[-        ] process > Megalodon                      -
+[-        ] process > MgldnComb                      -
+[-        ] process > DeepSignal                     -
+[-        ] process > DpSigComb                      -
+[-        ] process > Guppy                          [  0%] 0 of 1
+[-        ] process > GuppyComb                      -
+[-        ] process > Report                         -
+
+executor >  local (3)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [  0%] 0 of 1
+[-        ] process > QCExport                       -
+[-        ] process > Resquiggle                     -
+[-        ] process > Nanopolish                     -
+[-        ] process > NplshComb                      -
+[-        ] process > Megalodon                      [  0%] 0 of 1
+[-        ] process > MgldnComb                      -
+[-        ] process > DeepSignal                     -
+[-        ] process > DpSigComb                      -
+[-        ] process > Guppy                          [  0%] 0 of 1
+[-        ] process > GuppyComb                      -
+[-        ] process > Report                         -
+
+executor >  local (4)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [100%] 1 of 1 ✔
+[-        ] process > QCExport                       -
+[-        ] process > Resquiggle                     -
+[-        ] process > Nanopolish                     -
+[-        ] process > NplshComb                      -
+[-        ] process > Megalodon                      [  0%] 0 of 1
+[-        ] process > MgldnComb                      -
+[-        ] process > DeepSignal                     -
+[-        ] process > DpSigComb                      -
+[28/197de2] process > Guppy (ecoli_ci_test_fast5.... [  0%] 0 of 1
+[-        ] process > GuppyComb                      -
+[-        ] process > Report                         -
+
+executor >  local (4)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [100%] 1 of 1 ✔
+[-        ] process > QCExport                       [  0%] 0 of 1
+[-        ] process > Resquiggle                     [  0%] 0 of 1
+[-        ] process > Nanopolish                     [  0%] 0 of 1
+[-        ] process > NplshComb                      -
+[-        ] process > Megalodon                      [  0%] 0 of 1
+[-        ] process > MgldnComb                      -
+[-        ] process > DeepSignal                     -
+[-        ] process > DpSigComb                      -
+[28/197de2] process > Guppy (ecoli_ci_test_fast5.... [  0%] 0 of 1
+[-        ] process > GuppyComb                      -
+[-        ] process > Report                         -
+
+executor >  local (5)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [100%] 1 of 1 ✔
+[-        ] process > QCExport                       [  0%] 0 of 1
+[-        ] process > Resquiggle                     [  0%] 0 of 1
+[-        ] process > Nanopolish                     [  0%] 0 of 1
+[-        ] process > NplshComb                      -
+[b8/a97ff8] process > Megalodon (ecoli_ci_test_fa... [  0%] 0 of 1
+[-        ] process > MgldnComb                      -
+[-        ] process > DeepSignal                     -
+[-        ] process > DpSigComb                      -
+[28/197de2] process > Guppy (ecoli_ci_test_fast5.... [  0%] 0 of 1
+[-        ] process > GuppyComb                      -
+[-        ] process > Report                         -
+
+executor >  local (5)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [100%] 1 of 1 ✔
+[-        ] process > QCExport                       [  0%] 0 of 1
+[-        ] process > Resquiggle                     [  0%] 0 of 1
+[-        ] process > Nanopolish                     [  0%] 0 of 1
+[-        ] process > NplshComb                      -
+[b8/a97ff8] process > Megalodon (ecoli_ci_test_fa... [  0%] 0 of 1
+[-        ] process > MgldnComb                      -
+[-        ] process > DeepSignal                     -
+[-        ] process > DpSigComb                      -
+[28/197de2] process > Guppy (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[-        ] process > GuppyComb                      -
+[-        ] process > Report                         -
+
+executor >  local (5)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [100%] 1 of 1 ✔
+[-        ] process > QCExport                       [  0%] 0 of 1
+[-        ] process > Resquiggle                     [  0%] 0 of 1
+[-        ] process > Nanopolish                     [  0%] 0 of 1
+[-        ] process > NplshComb                      -
+[b8/a97ff8] process > Megalodon (ecoli_ci_test_fa... [  0%] 0 of 1
+[-        ] process > MgldnComb                      -
+[-        ] process > DeepSignal                     -
+[-        ] process > DpSigComb                      -
+[28/197de2] process > Guppy (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[-        ] process > GuppyComb                      [  0%] 0 of 1
+[-        ] process > Report                         -
+
+executor >  local (6)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [100%] 1 of 1 ✔
+[-        ] process > QCExport                       [  0%] 0 of 1
+[-        ] process > Resquiggle                     [  0%] 0 of 1
+[89/ce13bf] process > Nanopolish (ecoli_ci_test_f... [  0%] 0 of 1
+[-        ] process > NplshComb                      -
+[b8/a97ff8] process > Megalodon (ecoli_ci_test_fa... [100%] 1 of 1 ✔
+[-        ] process > MgldnComb                      [  0%] 0 of 1
+[-        ] process > DeepSignal                     -
+[-        ] process > DpSigComb                      -
+[28/197de2] process > Guppy (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[-        ] process > GuppyComb                      [  0%] 0 of 1
+[-        ] process > Report                         -
+
+executor >  local (7)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [100%] 1 of 1 ✔
+[-        ] process > QCExport                       [  0%] 0 of 1
+[d2/c9f08a] process > Resquiggle (ecoli_ci_test_f... [  0%] 0 of 1
+[89/ce13bf] process > Nanopolish (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[-        ] process > NplshComb                      -
+[b8/a97ff8] process > Megalodon (ecoli_ci_test_fa... [100%] 1 of 1 ✔
+[-        ] process > MgldnComb                      [  0%] 0 of 1
+[-        ] process > DeepSignal                     -
+[-        ] process > DpSigComb                      -
+[28/197de2] process > Guppy (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[-        ] process > GuppyComb                      [  0%] 0 of 1
+[-        ] process > Report                         -
+
+executor >  local (7)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [100%] 1 of 1 ✔
+[-        ] process > QCExport                       [  0%] 0 of 1
+[d2/c9f08a] process > Resquiggle (ecoli_ci_test_f... [  0%] 0 of 1
+[89/ce13bf] process > Nanopolish (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[-        ] process > NplshComb                      [  0%] 0 of 1
+[b8/a97ff8] process > Megalodon (ecoli_ci_test_fa... [100%] 1 of 1 ✔
+[-        ] process > MgldnComb                      [  0%] 0 of 1
+[-        ] process > DeepSignal                     -
+[-        ] process > DpSigComb                      -
+[28/197de2] process > Guppy (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[-        ] process > GuppyComb                      [  0%] 0 of 1
+[-        ] process > Report                         -
+
+executor >  local (8)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [100%] 1 of 1 ✔
+[04/2f9535] process > QCExport (CIEcoli)             [  0%] 0 of 1
+[d2/c9f08a] process > Resquiggle (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[89/ce13bf] process > Nanopolish (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[-        ] process > NplshComb                      [  0%] 0 of 1
+[b8/a97ff8] process > Megalodon (ecoli_ci_test_fa... [100%] 1 of 1 ✔
+[-        ] process > MgldnComb                      [  0%] 0 of 1
+[-        ] process > DeepSignal                     [  0%] 0 of 1
+[-        ] process > DpSigComb                      -
+[28/197de2] process > Guppy (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[-        ] process > GuppyComb                      [  0%] 0 of 1
+[-        ] process > Report                         -
+
+executor >  local (9)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [100%] 1 of 1 ✔
+[04/2f9535] process > QCExport (CIEcoli)             [100%] 1 of 1 ✔
+[d2/c9f08a] process > Resquiggle (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[89/ce13bf] process > Nanopolish (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[-        ] process > NplshComb                      [  0%] 0 of 1
+[b8/a97ff8] process > Megalodon (ecoli_ci_test_fa... [100%] 1 of 1 ✔
+[-        ] process > MgldnComb                      [  0%] 0 of 1
+[-        ] process > DeepSignal                     [  0%] 0 of 1
+[-        ] process > DpSigComb                      -
+[28/197de2] process > Guppy (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[46/9d557e] process > GuppyComb (CIEcoli)            [  0%] 0 of 1
+[-        ] process > Report                         -
+
+executor >  local (10)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [100%] 1 of 1 ✔
+[04/2f9535] process > QCExport (CIEcoli)             [100%] 1 of 1 ✔
+[d2/c9f08a] process > Resquiggle (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[89/ce13bf] process > Nanopolish (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[-        ] process > NplshComb                      [  0%] 0 of 1
+[b8/a97ff8] process > Megalodon (ecoli_ci_test_fa... [100%] 1 of 1 ✔
+[3f/4fd4a3] process > MgldnComb (CIEcoli)            [  0%] 0 of 1
+[-        ] process > DeepSignal                     [  0%] 0 of 1
+[-        ] process > DpSigComb                      -
+[28/197de2] process > Guppy (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[46/9d557e] process > GuppyComb (CIEcoli)            [100%] 1 of 1 ✔
+[-        ] process > Report                         -
+
+executor >  local (11)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [100%] 1 of 1 ✔
+[04/2f9535] process > QCExport (CIEcoli)             [100%] 1 of 1 ✔
+[d2/c9f08a] process > Resquiggle (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[89/ce13bf] process > Nanopolish (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[6a/6e8ecd] process > NplshComb (CIEcoli)            [  0%] 0 of 1
+[b8/a97ff8] process > Megalodon (ecoli_ci_test_fa... [100%] 1 of 1 ✔
+[3f/4fd4a3] process > MgldnComb (CIEcoli)            [100%] 1 of 1 ✔
+[-        ] process > DeepSignal                     [  0%] 0 of 1
+[-        ] process > DpSigComb                      -
+[28/197de2] process > Guppy (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[46/9d557e] process > GuppyComb (CIEcoli)            [100%] 1 of 1 ✔
+[-        ] process > Report                         -
+
+executor >  local (11)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [100%] 1 of 1 ✔
+[04/2f9535] process > QCExport (CIEcoli)             [100%] 1 of 1 ✔
+[d2/c9f08a] process > Resquiggle (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[89/ce13bf] process > Nanopolish (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[6a/6e8ecd] process > NplshComb (CIEcoli)            [  0%] 0 of 1
+[b8/a97ff8] process > Megalodon (ecoli_ci_test_fa... [100%] 1 of 1 ✔
+[3f/4fd4a3] process > MgldnComb (CIEcoli)            [100%] 1 of 1 ✔
+[-        ] process > DeepSignal                     [  0%] 0 of 1
+[-        ] process > DpSigComb                      -
+[28/197de2] process > Guppy (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[46/9d557e] process > GuppyComb (CIEcoli)            [100%] 1 of 1 ✔
+[-        ] process > Report                         -
+
+executor >  local (12)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [100%] 1 of 1 ✔
+[04/2f9535] process > QCExport (CIEcoli)             [100%] 1 of 1 ✔
+[d2/c9f08a] process > Resquiggle (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[89/ce13bf] process > Nanopolish (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[6a/6e8ecd] process > NplshComb (CIEcoli)            [100%] 1 of 1 ✔
+[b8/a97ff8] process > Megalodon (ecoli_ci_test_fa... [100%] 1 of 1 ✔
+[3f/4fd4a3] process > MgldnComb (CIEcoli)            [100%] 1 of 1 ✔
+[1a/45058f] process > DeepSignal (ecoli_ci_test_f... [  0%] 0 of 1
+[-        ] process > DpSigComb                      -
+[28/197de2] process > Guppy (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[46/9d557e] process > GuppyComb (CIEcoli)            [100%] 1 of 1 ✔
+[-        ] process > Report                         -
+
+executor >  local (12)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [100%] 1 of 1 ✔
+[04/2f9535] process > QCExport (CIEcoli)             [100%] 1 of 1 ✔
+[d2/c9f08a] process > Resquiggle (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[89/ce13bf] process > Nanopolish (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[6a/6e8ecd] process > NplshComb (CIEcoli)            [100%] 1 of 1 ✔
+[b8/a97ff8] process > Megalodon (ecoli_ci_test_fa... [100%] 1 of 1 ✔
+[3f/4fd4a3] process > MgldnComb (CIEcoli)            [100%] 1 of 1 ✔
+[1a/45058f] process > DeepSignal (ecoli_ci_test_f... [  0%] 0 of 1
+[-        ] process > DpSigComb                      -
+[28/197de2] process > Guppy (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[46/9d557e] process > GuppyComb (CIEcoli)            [100%] 1 of 1 ✔
+[-        ] process > Report                         -
+
+executor >  local (12)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [100%] 1 of 1 ✔
+[04/2f9535] process > QCExport (CIEcoli)             [100%] 1 of 1 ✔
+[d2/c9f08a] process > Resquiggle (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[89/ce13bf] process > Nanopolish (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[6a/6e8ecd] process > NplshComb (CIEcoli)            [100%] 1 of 1 ✔
+[b8/a97ff8] process > Megalodon (ecoli_ci_test_fa... [100%] 1 of 1 ✔
+[3f/4fd4a3] process > MgldnComb (CIEcoli)            [100%] 1 of 1 ✔
+[1a/45058f] process > DeepSignal (ecoli_ci_test_f... [  0%] 0 of 1 ✔
+[-        ] process > DpSigComb                      -
+[28/197de2] process > Guppy (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[46/9d557e] process > GuppyComb (CIEcoli)            [100%] 1 of 1 ✔
+[-        ] process > Report                         -
+
+executor >  local (13)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [100%] 1 of 1 ✔
+[04/2f9535] process > QCExport (CIEcoli)             [100%] 1 of 1 ✔
+[d2/c9f08a] process > Resquiggle (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[89/ce13bf] process > Nanopolish (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[6a/6e8ecd] process > NplshComb (CIEcoli)            [100%] 1 of 1 ✔
+[b8/a97ff8] process > Megalodon (ecoli_ci_test_fa... [100%] 1 of 1 ✔
+[3f/4fd4a3] process > MgldnComb (CIEcoli)            [100%] 1 of 1 ✔
+[1a/45058f] process > DeepSignal (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[90/58e06f] process > DpSigComb (CIEcoli)            [  0%] 0 of 1
+[28/197de2] process > Guppy (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[46/9d557e] process > GuppyComb (CIEcoli)            [100%] 1 of 1 ✔
+[-        ] process > Report                         -
+
+executor >  local (13)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [100%] 1 of 1 ✔
+[04/2f9535] process > QCExport (CIEcoli)             [100%] 1 of 1 ✔
+[d2/c9f08a] process > Resquiggle (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[89/ce13bf] process > Nanopolish (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[6a/6e8ecd] process > NplshComb (CIEcoli)            [100%] 1 of 1 ✔
+[b8/a97ff8] process > Megalodon (ecoli_ci_test_fa... [100%] 1 of 1 ✔
+[3f/4fd4a3] process > MgldnComb (CIEcoli)            [100%] 1 of 1 ✔
+[1a/45058f] process > DeepSignal (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[90/58e06f] process > DpSigComb (CIEcoli)            [100%] 1 of 1 ✔
+[28/197de2] process > Guppy (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[46/9d557e] process > GuppyComb (CIEcoli)            [100%] 1 of 1 ✔
+[-        ] process > Report                         -
+
+executor >  local (14)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [100%] 1 of 1 ✔
+[04/2f9535] process > QCExport (CIEcoli)             [100%] 1 of 1 ✔
+[d2/c9f08a] process > Resquiggle (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[89/ce13bf] process > Nanopolish (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[6a/6e8ecd] process > NplshComb (CIEcoli)            [100%] 1 of 1 ✔
+[b8/a97ff8] process > Megalodon (ecoli_ci_test_fa... [100%] 1 of 1 ✔
+[3f/4fd4a3] process > MgldnComb (CIEcoli)            [100%] 1 of 1 ✔
+[1a/45058f] process > DeepSignal (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[90/58e06f] process > DpSigComb (CIEcoli)            [100%] 1 of 1 ✔
+[28/197de2] process > Guppy (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[46/9d557e] process > GuppyComb (CIEcoli)            [100%] 1 of 1 ✔
+[91/1917d0] process > Report (CIEcoli)               [  0%] 0 of 1
+
+executor >  local (14)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [100%] 1 of 1 ✔
+[04/2f9535] process > QCExport (CIEcoli)             [100%] 1 of 1 ✔
+[d2/c9f08a] process > Resquiggle (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[89/ce13bf] process > Nanopolish (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[6a/6e8ecd] process > NplshComb (CIEcoli)            [100%] 1 of 1 ✔
+[b8/a97ff8] process > Megalodon (ecoli_ci_test_fa... [100%] 1 of 1 ✔
+[3f/4fd4a3] process > MgldnComb (CIEcoli)            [100%] 1 of 1 ✔
+[1a/45058f] process > DeepSignal (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[90/58e06f] process > DpSigComb (CIEcoli)            [100%] 1 of 1 ✔
+[28/197de2] process > Guppy (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[46/9d557e] process > GuppyComb (CIEcoli)            [100%] 1 of 1 ✔
+[91/1917d0] process > Report (CIEcoli)               [100%] 1 of 1 ✔
+
+executor >  local (14)
+[8c/765a4e] process > EnvCheck (EnvCheck)            [100%] 1 of 1 ✔
+[03/4248c1] process > Untar (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[bd/82f06d] process > Basecall (ecoli_ci_test_fas... [100%] 1 of 1 ✔
+[04/2f9535] process > QCExport (CIEcoli)             [100%] 1 of 1 ✔
+[d2/c9f08a] process > Resquiggle (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[89/ce13bf] process > Nanopolish (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[6a/6e8ecd] process > NplshComb (CIEcoli)            [100%] 1 of 1 ✔
+[b8/a97ff8] process > Megalodon (ecoli_ci_test_fa... [100%] 1 of 1 ✔
+[3f/4fd4a3] process > MgldnComb (CIEcoli)            [100%] 1 of 1 ✔
+[1a/45058f] process > DeepSignal (ecoli_ci_test_f... [100%] 1 of 1 ✔
+[90/58e06f] process > DpSigComb (CIEcoli)            [100%] 1 of 1 ✔
+[28/197de2] process > Guppy (ecoli_ci_test_fast5.... [100%] 1 of 1 ✔
+[46/9d557e] process > GuppyComb (CIEcoli)            [100%] 1 of 1 ✔
+[91/1917d0] process > Report (CIEcoli)               [100%] 1 of 1 ✔
+Completed at: 15-Nov-2021 12:26:38
+Duration    : 30m 51s
+CPU hours   : 0.2
+Succeeded   : 14
+
+
+Testing is done!
+-------------------------------------------------------------
+SUMNER/WINTER EPILOGUE
+-------------------------------------------------------------
+Job ID: 11707767
+Cluster: slurm_cluster
+User/Group: root/jaxuser
+State: COMPLETED (exit code 0)
+Cores: 1
+CPU Utilized: 00:29:57
+CPU Efficiency: 96.41% of 00:31:04 core-walltime
+Job Wall-clock time: 00:31:04
+Memory Utilized: 2.41 GB
+Memory Efficiency: 12.07% of 20.00 GB
+-------------------------------------------------------------
+       JobID  User   State    CPUTime Exit     MaxRSS        NodeList  Partition                   ReqTRES              Submit               Start                 End    Elapsed 
+------------ ----- ------- ---------- ---- ---------- --------------- ---------- ------------------------- ------------------- ------------------- ------------------- ---------- 
+11707767     c-pa+ COMPLE+   00:31:04  0:0                  sumner023    compute billing=1,cpu=1,mem=2048+ 2021-11-15T11:55:35 2021-11-15T11:55:35 2021-11-15T12:26:39   00:31:04 
+11707767.ba+       COMPLE+   00:31:04  0:0   2470.98M       sumner023                                      2021-11-15T11:55:35 2021-11-15T11:55:35 2021-11-15T12:26:39   00:31:04 
+11707767.ex+       COMPLE+   00:31:06  0:0      1.58M       sumner023                                      2021-11-15T11:55:35 2021-11-15T11:55:35 2021-11-15T12:26:41   00:31:06 
+-------------------------------------------------------------

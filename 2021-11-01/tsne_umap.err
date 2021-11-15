@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/pod/2/li-lab/Ziwei/Nanopore/daily/2021-10-29/tSNE_UMAP.py", line 161, in <module>
+    plot_UMAP(input_path, output_path)
+  File "/pod/2/li-lab/Ziwei/Nanopore/daily/2021-10-29/tSNE_UMAP.py", line 119, in plot_UMAP
+    embedding = reducer.fit_transform(scaled_feature)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/umap/umap_.py", line 2772, in fit_transform
+    self.fit(X, y)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/umap/umap_.py", line 2688, in fit
+    random_state,  # JH why raw data?
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/umap/umap_.py", line 2739, in _fit_embed_data
+    tqdm_kwds=self.tqdm_kwds,
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/umap/umap_.py", line 1084, in simplicial_set_embedding
+    metric_kwds=metric_kwds,
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/umap/spectral.py", line 314, in spectral_layout
+    metric_kwds=metric_kwds,
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/umap/spectral.py", line 201, in multi_component_layout
+    metric_kwds=metric_kwds,
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/umap/spectral.py", line 130, in component_layout
+    component_centroids, metric=metric, **metric_kwds
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/sklearn/utils/validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/sklearn/metrics/pairwise.py", line 1790, in pairwise_distances
+    return _parallel_pairwise(X, Y, func, n_jobs, **kwds)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/sklearn/metrics/pairwise.py", line 1359, in _parallel_pairwise
+    return func(X, Y, **kwds)
+  File "/pod/2/li-lab/Ziwei/Anaconda3/envs/nanomodel/lib/python3.6/site-packages/sklearn/metrics/pairwise.py", line 1383, in _pairwise_callable
+    out = np.zeros((X.shape[0], Y.shape[0]), dtype='float')
+numpy.core._exceptions.MemoryError: Unable to allocate 1.05 TiB for an array with shape (379234, 379234) and data type float64

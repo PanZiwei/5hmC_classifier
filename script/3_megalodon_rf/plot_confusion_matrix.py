@@ -34,12 +34,12 @@ def plot_cm(y_true, y_pred, filename, label = ['5C', '5mC', '5hmC'], figsize=(10
             c = cm[i, j]
             p = cm_perc[i, j]
             s = cm_sum[i]
-            annot[i, j] = '%.1f%%\n%d/%d' % (p, c, s)
+            annot[i, j] = '%.2f%%\n%d/%d' % (p, c, s)
     
     cmn = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
     cmn = pd.DataFrame(cmn, index=label, columns=label)
     cmn.index.name = 'True label'
     cmn.columns.name = 'Predicted label'
     fig, ax = plt.subplots(figsize=figsize)
-    sns.heatmap(cmn, annot=annot, fmt='', ax=ax, cmap="Blues")
+    sns.heatmap(cmn, annot=annot, fmt='', ax=ax, cmap="Blues", vmin=0, vmax=1) ##Set up bar range
     plt.savefig(filename)

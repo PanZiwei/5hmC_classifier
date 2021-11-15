@@ -8,8 +8,8 @@
 #SBATCH --ntasks=1
 #SBATCH --nodes=1
 #SBATCH --qos=batch   #batch < 72h; long~300h
-#SBATCH --time=16:00:00
-#SBATCH --mem-per-cpu=5G
+#SBATCH --time=14:00:00
+#SBATCH --mem-per-cpu=10G
 ###SLURM HEADER
 
 mkdir /pod/2/li-lab/Ziwei/Nanopore/daily/$(date +%Y-%m-%d)
@@ -27,9 +27,9 @@ fi
 #export PATH=/projects/li-lab/Ziwei/Anaconda3/bin:$PATH
 
 source /projects/li-lab/Ziwei/Anaconda3/etc/profile.d/conda.sh
-conda activate nanomodel
+conda activate nanomodel_python3.8
 
-PORT=10004
+PORT=10005
 HOST=$(hostname -A)
 
 jupyter lab --ip=$HOST --port=$PORT --no-browser --notebook-dir=/projects/li-lab/Ziwei/Nanopore/daily

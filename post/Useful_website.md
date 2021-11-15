@@ -35,3 +35,16 @@ t-Distributed Stochastic Neighbor Embedding (t-SNE) Hyperparameter Tuning for n_
 Data visualization: 
 1. seaborn color palette: https://seaborn.pydata.org/tutorial/color_palettes.html
 2. Matlib color palette: https://matplotlib.org/stable/tutorials/colors/colormaps.html
+
+
+GridSearch with predefinedsplit: https://gist.github.com/anirudhshenoy/e87525499d66e8a46a56bfa27e2d2f2f
+
+```python
+#https://stackoverflow.com/a/43766334
+#https://gist.github.com/anirudhshenoy/e87525499d66e8a46a56bfa27e2d2f2f
+# put -1 so they will be in training set, put 0 for others to go to test dataset
+test_fold = [-1 for _ in range(X_train.shape[0])] + [0 for _ in range(X_val_res.shape[0])]
+```
+
+HPC internal usage:
+What are the Cluster SLURM Settings and Job Limits?: https://jacksonlaboratory.sharepoint.com/sites/ResearchIT/SitePages/What%20are%20the%20Cluster%20SLURM%20Settings%20and%20Job%20Limits.aspx

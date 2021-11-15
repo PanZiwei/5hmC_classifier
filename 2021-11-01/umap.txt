@@ -1,0 +1,11 @@
+UMAP(random_state=42, verbose=2)
+Mon Nov  1 13:52:29 2021 Construct fuzzy simplicial set
+Mon Nov  1 13:52:32 2021 Finding Nearest Neighbors
+Mon Nov  1 13:52:32 2021 Building RP forest with 64 trees
+Mon Nov  1 13:55:30 2021 NN descent for 24 iterations
+	 1  /  24
+	 2  /  24
+	 3  /  24
+	Stopping threshold met -- exiting after 3 iterations
+Mon Nov  1 14:16:54 2021 Finished Nearest Neighbor Search
+Mon Nov  1 14:20:31 2021 Construct embedding

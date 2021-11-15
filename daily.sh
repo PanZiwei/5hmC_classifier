@@ -27,9 +27,9 @@ fi
 #export PATH=/projects/li-lab/Ziwei/Anaconda3/bin:$PATH
 
 source /projects/li-lab/Ziwei/Anaconda3/etc/profile.d/conda.sh
-conda activate nanomodel
+conda activate nanomodel_python3.8
 
-PORT=10004
+PORT=10005
 HOST=$(hostname -A)
 
-jupyter lab --ip=$HOST --port=$PORT --no-browser --notebook-dir=/projects/li-lab/Ziwei/Nanopore/daily
+jupyter lab --ip=$HOST --port=$PORT --no-browser --notebook-dir=/projects/li-lab/Ziwei/Nanopore/

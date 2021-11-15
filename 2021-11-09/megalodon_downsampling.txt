@@ -1,0 +1,7 @@
+Argument is done!
+Data is loading!
+f1_macro for three-way maximum: 0.746315150800139
+f1_macro for zero cutoff: 0.022222222222222223
+Downsampling is done!
+f1_macro for three-way maximum: 0.7538919125284366
+f1_macro for zero cutoff: 0.02220082383780025

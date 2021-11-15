@@ -12,7 +12,7 @@
 
 ### Git push command
 ```shell
-git add -all #add current dir for repo change
+git add --all #add current dir for repo change
 git commit -m "message"
 git push
 ```
