@@ -31,7 +31,8 @@ fi
 #export PATH=/projects/li-lab/Ziwei/Anaconda3/bin:$PATH
 
 source /projects/li-lab/Ziwei/Anaconda3/etc/profile.d/conda.sh
-conda activate nanomodel_python3.8
+#conda activate nanomodel_python3.8
+conda activate deepsignal_custom
 
 PORT=10005
 HOST=$(hostname -A)

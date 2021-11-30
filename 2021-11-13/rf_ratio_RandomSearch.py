@@ -223,7 +223,7 @@ if __name__ == '__main__':
     report = pd.DataFrame(classification_report(
         y_true, y_pred, target_names=label, output_dict=True)
                          ).transpose()
-    report.to_csv(os.path.join(output_path, "rf.RandomSearch.class_report.csv"), header = True, index= None, sep = ',', float_format='%.4f')
+    report.to_csv(os.path.join(output_path, "rf.RandomSearch.class_report.csv"), header = True, index= True, sep = ',', float_format='%.4f')
     
     print("Saving is done!")
     

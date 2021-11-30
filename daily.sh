@@ -8,7 +8,7 @@
 #SBATCH --ntasks=1
 #SBATCH --nodes=1
 #SBATCH --qos=batch   #batch < 72h; long~300h
-#SBATCH --time=14:00:00
+#SBATCH --time=16:00:00
 #SBATCH --mem-per-cpu=10G
 ###SLURM HEADER
 

@@ -1,9 +1,10 @@
-#!/usr/bin/bash
-#SBATCH --job-name=daily_winter
-#SBATCH --mail-type=ALL
+#!/bin/bash
+# set the number of nodes
+#SBATCH --job-name=Jup_winter
+#SBATCH --mail-type=BEGIN,END,FAIL
 #SBATCH --mail-user=ziwei.pan@jax.org
-#SBATCH --output=/pod/2/li-lab/Ziwei/Nanopore/daily_winter.out 
-#SBATCH --error=/pod/2/li-lab/Ziwei/Nanopore/daily_winter.err
+#SBATCH --output=/pod/2/li-lab/Ziwei/Nanopore/winter_pytorch.out 
+#SBATCH --error=/pod/2/li-lab/Ziwei/Nanopore/winter_pytorch.err
 
 #SBATCH --nodes=1  # number of nodes
 #SBATCH --ntasks=1 # number of cores
@@ -14,13 +15,6 @@
 # set max wallclock time
 #SBATCH --time=08:00:00
 #SBATCH --mem=50G
-###SLURM HEADER
-
-mkdir /pod/2/li-lab/Ziwei/Nanopore/daily/$(date +%Y-%m-%d)
-mkdir /fastscratch/c-panz/$(date +%Y-%m-%d)
-mkdir /fastscratch/c-panz/$(date +%Y-%m-%d)/log
-touch /pod/2/li-lab/Ziwei/Nanopore/daily/$(date +%Y-%m-%d)/$(date +%Y-%m-%d).md
-
 localcores=${SLURM_TASKS_PER_NODE}
 
 if [ “$1” ]
@@ -31,10 +25,9 @@ fi
 #export PATH=/projects/li-lab/Ziwei/Anaconda3/bin:$PATH
 
 source /projects/li-lab/Ziwei/Anaconda3/etc/profile.d/conda.sh
-#conda activate nanomodel_python3.8
-conda activate deepsignal_custom
+conda activate pytorch
 
-PORT=10005
+PORT=10006
 HOST=$(hostname -A)
 
 jupyter lab --ip=$HOST --port=$PORT --no-browser --notebook-dir=/projects/li-lab/Ziwei/Nanopore/daily

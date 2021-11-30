@@ -14,3 +14,112 @@ Spliting and downsampling is done!
  0        6003
 dtype: int64
 Fitting 1 folds for each of 100 candidates, totalling 100 fits
+[CV 1/1] END m__bootstrap=True, m__max_depth=15, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=2, m__n_estimators=70, o__k_neighbors=10;, score=(train=0.638, test=0.758) total time=393.6min
+[CV 1/1] END m__bootstrap=True, m__max_depth=5, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=5, m__n_estimators=50, o__k_neighbors=5;, score=(train=0.628, test=0.747) total time=154.3min
+[CV 1/1] END m__bootstrap=True, m__max_depth=25, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=10, m__n_estimators=100, o__k_neighbors=10;, score=(train=0.653, test=0.755) total time=588.1min
+[CV 1/1] END m__bootstrap=True, m__max_depth=25, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=10, m__n_estimators=50, o__k_neighbors=5;, score=(train=0.658, test=0.738) total time=340.3min
+[CV 1/1] END m__bootstrap=True, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=10, m__n_estimators=100, o__k_neighbors=20;, score=(train=0.641, test=0.760) total time=559.3min
+[CV 1/1] END m__bootstrap=True, m__max_depth=15, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=2, m__n_estimators=60, o__k_neighbors=20;, score=(train=0.635, test=0.755) total time=421.5min
+[CV 1/1] END m__bootstrap=True, m__max_depth=5, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=5, m__n_estimators=70, o__k_neighbors=10;, score=(train=0.628, test=0.747) total time=204.4min
+[CV 1/1] END m__bootstrap=True, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=5, m__n_estimators=50, o__k_neighbors=5;, score=(train=0.650, test=0.750) total time=331.4min
+[CV 1/1] END m__bootstrap=False, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=2, m__n_estimators=100, o__k_neighbors=5;, score=(train=0.651, test=0.748) total time=635.8min
+[CV 1/1] END m__bootstrap=False, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=5, m__n_estimators=90, o__k_neighbors=10;, score=(train=0.646, test=0.764) total time=657.2min
+[CV 1/1] END m__bootstrap=False, m__max_depth=5, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=10, m__n_estimators=60, o__k_neighbors=5;, score=(train=0.629, test=0.748) total time=225.9min
+[CV 1/1] END m__bootstrap=True, m__max_depth=15, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=10, m__n_estimators=60, o__k_neighbors=20;, score=(train=0.635, test=0.753) total time=388.8min
+[CV 1/1] END m__bootstrap=True, m__max_depth=10, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=10, m__n_estimators=80, o__k_neighbors=10;, score=(train=0.632, test=0.754) total time=344.4min
+[CV 1/1] END m__bootstrap=True, m__max_depth=5, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=5, m__n_estimators=90, o__k_neighbors=20;, score=(train=0.627, test=0.748) total time=313.1min
+[CV 1/1] END m__bootstrap=True, m__max_depth=25, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=5, m__n_estimators=70, o__k_neighbors=20;, score=(train=0.649, test=0.769) total time=469.1min
+[CV 1/1] END m__bootstrap=True, m__max_depth=15, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=2, m__n_estimators=70, o__k_neighbors=20;, score=(train=0.635, test=0.754) total time=407.3min
+[CV 1/1] END m__bootstrap=False, m__max_depth=5, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=10, m__n_estimators=100, o__k_neighbors=5;, score=(train=0.629, test=0.748) total time=248.6min
+[CV 1/1] END m__bootstrap=True, m__max_depth=15, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=10, m__n_estimators=60, o__k_neighbors=5;, score=(train=0.641, test=0.761) total time=383.3min
+[CV 1/1] END m__bootstrap=False, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=10, m__n_estimators=60, o__k_neighbors=10;, score=(train=0.646, test=0.759) total time=496.8min
+[CV 1/1] END m__bootstrap=False, m__max_depth=15, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=5, m__n_estimators=50, o__k_neighbors=5;, score=(train=0.642, test=0.763) total time=344.8min
+[CV 1/1] END m__bootstrap=True, m__max_depth=5, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=10, m__n_estimators=60, o__k_neighbors=5;, score=(train=0.628, test=0.747) total time=180.2min
+[CV 1/1] END m__bootstrap=False, m__max_depth=15, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=2, m__n_estimators=80, o__k_neighbors=5;, score=(train=0.642, test=0.761) total time=535.0min
+[CV 1/1] END m__bootstrap=True, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=2, m__n_estimators=80, o__k_neighbors=5;, score=(train=0.651, test=0.745) total time=500.7min
+[CV 1/1] END m__bootstrap=True, m__max_depth=5, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=5, m__n_estimators=60, o__k_neighbors=20;, score=(train=0.628, test=0.748) total time=194.1min
+[CV 1/1] END m__bootstrap=True, m__max_depth=15, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=5, m__n_estimators=50, o__k_neighbors=5;, score=(train=0.641, test=0.763) total time=289.7min
+[CV 1/1] END m__bootstrap=False, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=10, m__n_estimators=100, o__k_neighbors=20;, score=(train=0.642, test=0.762) total time=685.0min
+[CV 1/1] END m__bootstrap=True, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=2, m__n_estimators=70, o__k_neighbors=5;, score=(train=0.651, test=0.748) total time=409.3min
+[CV 1/1] END m__bootstrap=False, m__max_depth=10, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=10, m__n_estimators=70, o__k_neighbors=20;, score=(train=0.631, test=0.757) total time=382.8min
+[CV 1/1] END m__bootstrap=True, m__max_depth=5, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=2, m__n_estimators=90, o__k_neighbors=10;, score=(train=0.628, test=0.747) total time=223.0min
+[CV 1/1] END m__bootstrap=False, m__max_depth=10, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=10, m__n_estimators=90, o__k_neighbors=20;, score=(train=0.631, test=0.755) total time=477.7min
+[CV 1/1] END m__bootstrap=True, m__max_depth=25, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=10, m__n_estimators=80, o__k_neighbors=5;, score=(train=0.658, test=0.739) total time=521.0min
+[CV 1/1] END m__bootstrap=False, m__max_depth=25, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=10, m__n_estimators=80, o__k_neighbors=5;, score=(train=0.660, test=0.735) total time=604.5min
+[CV 1/1] END m__bootstrap=True, m__max_depth=5, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=10, m__n_estimators=60, o__k_neighbors=5;, score=(train=0.628, test=0.747) total time=184.0min
+[CV 1/1] END m__bootstrap=False, m__max_depth=10, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=5, m__n_estimators=90, o__k_neighbors=5;, score=(train=0.634, test=0.761) total time=427.8min
+[CV 1/1] END m__bootstrap=True, m__max_depth=10, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=5, m__n_estimators=100, o__k_neighbors=10;, score=(train=0.632, test=0.754) total time=397.5min
+[CV 1/1] END m__bootstrap=True, m__max_depth=25, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=2, m__n_estimators=80, o__k_neighbors=5;, score=(train=0.660, test=0.738) total time=518.9min
+[CV 1/1] END m__bootstrap=False, m__max_depth=10, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=10, m__n_estimators=60, o__k_neighbors=5;, score=(train=0.634, test=0.760) total time=341.4min
+[CV 1/1] END m__bootstrap=True, m__max_depth=15, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=5, m__n_estimators=80, o__k_neighbors=20;, score=(train=0.635, test=0.757) total time=477.9min
+[CV 1/1] END m__bootstrap=True, m__max_depth=15, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=5, m__n_estimators=50, o__k_neighbors=10;, score=(train=0.638, test=0.757) total time=282.8min
+[CV 1/1] END m__bootstrap=True, m__max_depth=10, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=2, m__n_estimators=70, o__k_neighbors=20;, score=(train=0.630, test=0.755) total time=315.2min
+[CV 1/1] END m__bootstrap=False, m__max_depth=15, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=2, m__n_estimators=70, o__k_neighbors=10;, score=(train=0.638, test=0.758) total time=418.7min
+[CV 1/1] END m__bootstrap=False, m__max_depth=5, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=10, m__n_estimators=80, o__k_neighbors=5;, score=(train=0.629, test=0.748) total time=303.7min
+[CV 1/1] END m__bootstrap=True, m__max_depth=10, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=10, m__n_estimators=100, o__k_neighbors=20;, score=(train=0.630, test=0.753) total time=418.4min
+[CV 1/1] END m__bootstrap=True, m__max_depth=5, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=10, m__n_estimators=50, o__k_neighbors=5;, score=(train=0.628, test=0.747) total time=163.1min
+[CV 1/1] END m__bootstrap=False, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=5, m__n_estimators=60, o__k_neighbors=20;, score=(train=0.642, test=0.762) total time=524.0min
+[CV 1/1] END m__bootstrap=False, m__max_depth=15, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=2, m__n_estimators=90, o__k_neighbors=10;, score=(train=0.638, test=0.758) total time=573.3min
+[CV 1/1] END m__bootstrap=True, m__max_depth=5, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=2, m__n_estimators=100, o__k_neighbors=5;, score=(train=0.628, test=0.746) total time=270.7min
+[CV 1/1] END m__bootstrap=False, m__max_depth=5, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=5, m__n_estimators=90, o__k_neighbors=5;, score=(train=0.629, test=0.748) total time=272.1min
+[CV 1/1] END m__bootstrap=False, m__max_depth=5, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=10, m__n_estimators=100, o__k_neighbors=10;, score=(train=0.629, test=0.748) total time=305.0min
+[CV 1/1] END m__bootstrap=True, m__max_depth=5, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=2, m__n_estimators=50, o__k_neighbors=10;, score=(train=0.628, test=0.747) total time=158.2min
+[CV 1/1] END m__bootstrap=True, m__max_depth=5, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=5, m__n_estimators=70, o__k_neighbors=20;, score=(train=0.628, test=0.747) total time=212.7min
+[CV 1/1] END m__bootstrap=True, m__max_depth=15, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=10, m__n_estimators=50, o__k_neighbors=5;, score=(train=0.641, test=0.762) total time=292.0min
+[CV 1/1] END m__bootstrap=False, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=5, m__n_estimators=100, o__k_neighbors=20;, score=(train=0.642, test=0.760) total time=668.5min
+[CV 1/1] END m__bootstrap=True, m__max_depth=10, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=5, m__n_estimators=70, o__k_neighbors=10;, score=(train=0.632, test=0.753) total time=313.8min
+[CV 1/1] END m__bootstrap=False, m__max_depth=10, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=10, m__n_estimators=80, o__k_neighbors=20;, score=(train=0.631, test=0.755) total time=404.5min
+[CV 1/1] END m__bootstrap=True, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=10, m__n_estimators=70, o__k_neighbors=5;, score=(train=0.651, test=0.746) total time=432.0min
+[CV 1/1] END m__bootstrap=True, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=10, m__n_estimators=90, o__k_neighbors=5;, score=(train=0.651, test=0.744) total time=504.7min
+[CV 1/1] END m__bootstrap=True, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=10, m__n_estimators=80, o__k_neighbors=5;, score=(train=0.651, test=0.753) total time=511.5min
+[CV 1/1] END m__bootstrap=False, m__max_depth=10, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=5, m__n_estimators=70, o__k_neighbors=10;, score=(train=0.633, test=0.756) total time=355.4min
+[CV 1/1] END m__bootstrap=True, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=10, m__n_estimators=90, o__k_neighbors=10;, score=(train=0.645, test=0.764) total time=531.6min
+[CV 1/1] END m__bootstrap=True, m__max_depth=10, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=5, m__n_estimators=50, o__k_neighbors=20;, score=(train=0.630, test=0.754) total time=253.8min
+[CV 1/1] END m__bootstrap=False, m__max_depth=25, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=2, m__n_estimators=60, o__k_neighbors=20;, score=(train=0.652, test=0.769) total time=532.2min
+[CV 1/1] END m__bootstrap=False, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=2, m__n_estimators=90, o__k_neighbors=10;, score=(train=0.646, test=0.762) total time=633.3min
+[CV 1/1] END m__bootstrap=True, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=2, m__n_estimators=100, o__k_neighbors=20;, score=(train=0.641, test=0.760) total time=526.3min
+[CV 1/1] END m__bootstrap=False, m__max_depth=25, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=5, m__n_estimators=50, o__k_neighbors=20;, score=(train=0.650, test=0.767) total time=398.8min
+[CV 1/1] END m__bootstrap=True, m__max_depth=5, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=2, m__n_estimators=60, o__k_neighbors=20;, score=(train=0.628, test=0.748) total time=205.2min
+[CV 1/1] END m__bootstrap=False, m__max_depth=25, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=2, m__n_estimators=70, o__k_neighbors=20;, score=(train=0.652, test=0.770) total time=566.2min
+[CV 1/1] END m__bootstrap=True, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=5, m__n_estimators=90, o__k_neighbors=20;, score=(train=0.641, test=0.761) total time=516.1min
+[CV 1/1] END m__bootstrap=True, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=2, m__n_estimators=80, o__k_neighbors=20;, score=(train=0.641, test=0.761) total time=531.3min
+[CV 1/1] END m__bootstrap=False, m__max_depth=15, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=2, m__n_estimators=100, o__k_neighbors=10;, score=(train=0.639, test=0.758) total time=578.7min
+[CV 1/1] END m__bootstrap=False, m__max_depth=25, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=10, m__n_estimators=100, o__k_neighbors=10;, score=(train=0.655, test=0.758) total time=611.6min
+[CV 1/1] END m__bootstrap=False, m__max_depth=10, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=10, m__n_estimators=70, o__k_neighbors=5;, score=(train=0.634, test=0.762) total time=368.7min
+[CV 1/1] END m__bootstrap=False, m__max_depth=25, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=10, m__n_estimators=80, o__k_neighbors=10;, score=(train=0.655, test=0.757) total time=625.4min
+[CV 1/1] END m__bootstrap=False, m__max_depth=15, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=5, m__n_estimators=50, o__k_neighbors=20;, score=(train=0.635, test=0.753) total time=343.4min
+[CV 1/1] END m__bootstrap=True, m__max_depth=25, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=5, m__n_estimators=70, o__k_neighbors=20;, score=(train=0.649, test=0.767) total time=374.7min
+[CV 1/1] END m__bootstrap=False, m__max_depth=25, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=10, m__n_estimators=50, o__k_neighbors=5;, score=(train=0.660, test=0.739) total time=407.8min
+[CV 1/1] END m__bootstrap=False, m__max_depth=25, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=2, m__n_estimators=50, o__k_neighbors=20;, score=(train=0.651, test=0.766) total time=394.2min
+[CV 1/1] END m__bootstrap=True, m__max_depth=25, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=10, m__n_estimators=60, o__k_neighbors=10;, score=(train=0.653, test=0.761) total time=451.1min
+[CV 1/1] END m__bootstrap=True, m__max_depth=25, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=2, m__n_estimators=80, o__k_neighbors=10;, score=(train=0.655, test=0.761) total time=455.9min
+[CV 1/1] END m__bootstrap=True, m__max_depth=15, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=2, m__n_estimators=50, o__k_neighbors=10;, score=(train=0.638, test=0.759) total time=313.8min
+[CV 1/1] END m__bootstrap=False, m__max_depth=25, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=2, m__n_estimators=60, o__k_neighbors=5;, score=(train=0.661, test=0.731) total time=488.4min
+[CV 1/1] END m__bootstrap=False, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=10, m__n_estimators=80, o__k_neighbors=5;, score=(train=0.651, test=0.748) total time=627.3min
+[CV 1/1] END m__bootstrap=True, m__max_depth=15, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=5, m__n_estimators=70, o__k_neighbors=20;, score=(train=0.635, test=0.755) total time=283.0min
+[CV 1/1] END m__bootstrap=True, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=10, m__n_estimators=100, o__k_neighbors=5;, score=(train=0.651, test=0.753) total time=526.7min
+[CV 1/1] END m__bootstrap=True, m__max_depth=25, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=2, m__n_estimators=60, o__k_neighbors=5;, score=(train=0.660, test=0.738) total time=429.7min
+[CV 1/1] END m__bootstrap=True, m__max_depth=10, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=2, m__n_estimators=90, o__k_neighbors=20;, score=(train=0.630, test=0.754) total time=378.7min
+[CV 1/1] END m__bootstrap=True, m__max_depth=15, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=5, m__n_estimators=100, o__k_neighbors=20;, score=(train=0.635, test=0.756) total time=377.0min
+[CV 1/1] END m__bootstrap=False, m__max_depth=25, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=5, m__n_estimators=80, o__k_neighbors=20;, score=(train=0.651, test=0.770) total time=622.5min
+[CV 1/1] END m__bootstrap=False, m__max_depth=15, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=2, m__n_estimators=50, o__k_neighbors=10;, score=(train=0.639, test=0.760) total time=359.3min
+[CV 1/1] END m__bootstrap=False, m__max_depth=10, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=5, m__n_estimators=80, o__k_neighbors=20;, score=(train=0.632, test=0.756) total time=432.7min
+[CV 1/1] END m__bootstrap=True, m__max_depth=15, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=10, m__n_estimators=80, o__k_neighbors=10;, score=(train=0.638, test=0.759) total time=297.7min
+[CV 1/1] END m__bootstrap=False, m__max_depth=5, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=10, m__n_estimators=100, o__k_neighbors=10;, score=(train=0.629, test=0.748) total time=303.6min
+[CV 1/1] END m__bootstrap=True, m__max_depth=10, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=2, m__n_estimators=100, o__k_neighbors=20;, score=(train=0.630, test=0.753) total time=376.6min
+[CV 1/1] END m__bootstrap=False, m__max_depth=25, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=2, m__n_estimators=60, o__k_neighbors=10;, score=(train=0.655, test=0.756) total time=556.0min
+[CV 1/1] END m__bootstrap=True, m__max_depth=5, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=10, m__n_estimators=70, o__k_neighbors=5;, score=(train=0.629, test=0.748) total time=227.2min
+[CV 1/1] END m__bootstrap=False, m__max_depth=10, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=5, m__n_estimators=80, o__k_neighbors=5;, score=(train=0.634, test=0.760) total time=237.4min
+[CV 1/1] END m__bootstrap=False, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=1, m__min_samples_split=5, m__n_estimators=100, o__k_neighbors=10;, score=(train=0.646, test=0.766) total time=642.7min
+[CV 1/1] END m__bootstrap=True, m__max_depth=20, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=5, m__n_estimators=70, o__k_neighbors=10;, score=(train=0.646, test=0.766) total time=439.2min
+[CV 1/1] END m__bootstrap=True, m__max_depth=15, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=2, m__n_estimators=70, o__k_neighbors=10;, score=(train=0.638, test=0.756) total time=378.8min
+[CV 1/1] END m__bootstrap=True, m__max_depth=25, m__max_features=auto, m__min_samples_leaf=2, m__min_samples_split=5, m__n_estimators=90, o__k_neighbors=10;, score=(train=0.654, test=0.758) total time=256.2min
+Current Time = 05:28:47, 11/16/21
+Random search is done!
+Best Parameters:  {'o__k_neighbors': 20, 'm__n_estimators': 80, 'm__min_samples_split': 5, 'm__min_samples_leaf': 1, 'm__max_features': 'auto', 'm__max_depth': 25, 'm__bootstrap': False}  
+
+Best f1_score in cv: 0.7697615720960788 
+
+Test score: 0.6449015110302675
+f1_macro for three-way maximum: 0.7658460532993531
+Saving is done!
