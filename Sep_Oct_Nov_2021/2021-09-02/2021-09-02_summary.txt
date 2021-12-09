@@ -1,0 +1,29 @@
+cd /pod/2/li-lab/Ziwei/Nanopore/scripts/APL_guppy5.0.11_megalodon2.3.3
+(base) [c-panz@sumner-log1 APL_guppy5.0.11_megalodon2.3.3]$ sbatch 3_megalodon_modcall_persite-Copy0.sh
+Submitted batch job 10454256
+(base) [c-panz@sumner-log1 APL_guppy5.0.11_megalodon2.3.3]$ sbatch 3_megalodon_modcall_persite-Copy1.sh
+Submitted batch job 10454257
+(base) [c-panz@sumner-log1 APL_guppy5.0.11_megalodon2.3.3]$ sbatch 3_megalodon_modcall_persite-Copy2.sh
+Submitted batch job 10454258
+(base) [c-panz@sumner-log1 APL_guppy5.0.11_megalodon2.3.3]$ sbatch 3_megalodon_modcall_persite-Copy3.sh
+Submitted batch job 10454259
+(base) [c-panz@sumner-log1 APL_guppy5.0.11_megalodon2.3.3]$ sbatch 3_megalodon_modcall_persite-Copy4.sh
+Submitted batch job 10454260
+(base) [c-panz@sumner-log1 APL_guppy5.0.11_megalodon2.3.3]$ sbatch 3_megalodon_modcall_persite-Copy5.sh
+Submitted batch job 10454261
+(base) [c-panz@sumner-log1 APL_guppy5.0.11_megalodon2.3.3]$ sbatch 3_megalodon_modcall_persite-Copy6.sh
+Submitted batch job 10454262
+(base) [c-panz@sumner-log1 APL_guppy5.0.11_megalodon2.3.3]$ sbatch 3_megalodon_modcall_persite-Copy7.sh
+Submitted batch job 10454263
+(base) [c-panz@sumner-log1 APL_guppy5.0.11_megalodon2.3.3]$ sbatch 3_megalodon_modcall_persite-Copy8.sh
+Submitted batch job 10454264
+(base) [c-panz@sumner-log1 APL_guppy5.0.11_megalodon2.3.3]$ sbatch 3_megalodon_modcall_persite-Copy9.sh
+Submitted batch job 10454265
+(base) [c-panz@sumner-log1 APL_guppy5.0.11_megalodon2.3.3]$ sbatch 3_megalodon_modcall_persite-Copy10.sh
+Submitted batch job 10454266
+
+cd /pod/2/li-lab/Ziwei/Nanopore/daily/$(date +%Y-%m-%d)
+sbatch 2_APL_plotting.sh
+
+(base) [c-panz@sumner-log1 2021-09-02]$ sbatch 2_APL_plotting.sh
+Submitted batch job 10454267

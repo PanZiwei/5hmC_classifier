@@ -1,0 +1,7 @@
+Current Time = 20:07:32, 10/21/21
+Data is loading!
+Before the pipeline:
+ y_train:Counter({1: 9301876, 0: 5894606, 2: 1662}),
+ y_test: Counter({1: 2325469, 0: 1473652, 2: 415})
+Spliting is done!
+Current Time = 20:08:12, 10/21/21

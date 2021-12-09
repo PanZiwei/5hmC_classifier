@@ -1,0 +1,6 @@
+Data is loading!
+Spliting is done!
+Current Time = 18:47:43, 09/29/21
+Before SMOTE: Counter({1: 9301876, 0: 5894606, 2: 1662})
+After SMOTE: Counter({1: 9301876, 0: 9301876, 2: 9301876})
+Current Time = 18:48:37, 09/29/21

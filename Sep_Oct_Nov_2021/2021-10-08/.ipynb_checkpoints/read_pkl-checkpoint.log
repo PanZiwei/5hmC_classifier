@@ -1,0 +1,29 @@
+Tue Oct 19 13:40:52 EDT 2021
+Pipeline(steps=[('smote', SMOTE(random_state=42)),
+                ('rfr',
+                 RandomForestClassifier(max_depth=5, min_samples_leaf=2,
+                                        n_estimators=80, random_state=42))])
+Data is loading!
+Spliting is done!
+Test score with best parameter: 0.893609903946166
+-------------------------------------------------------------
+SUMNER/WINTER EPILOGUE
+-------------------------------------------------------------
+Job ID: 11300143
+Cluster: slurm_cluster
+User/Group: root/jaxuser
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 25
+CPU Utilized: 00:57:51
+CPU Efficiency: 4.00% of 1-00:05:00 core-walltime
+Job Wall-clock time: 00:57:48
+Memory Utilized: 5.63 GB
+Memory Efficiency: 3.75% of 150.00 GB
+-------------------------------------------------------------
+       JobID  User   State    CPUTime Exit     MaxRSS        NodeList  Partition                   ReqTRES              Submit               Start                 End    Elapsed 
+------------ ----- ------- ---------- ---- ---------- --------------- ---------- ------------------------- ------------------- ------------------- ------------------- ---------- 
+11300143     c-pa+ COMPLE+ 1-00:05:00  0:0                  sumner040    compute billing=25,cpu=25,mem=15+ 2021-10-19T13:40:52 2021-10-19T13:40:52 2021-10-19T14:38:40   00:57:48 
+11300143.ba+       COMPLE+ 1-00:05:00  0:0   5767.20M       sumner040                                      2021-10-19T13:40:52 2021-10-19T13:40:52 2021-10-19T14:38:40   00:57:48 
+11300143.ex+       COMPLE+ 1-00:05:25  0:0      1.76M       sumner040                                      2021-10-19T13:40:52 2021-10-19T13:40:52 2021-10-19T14:38:41   00:57:49 
+-------------------------------------------------------------

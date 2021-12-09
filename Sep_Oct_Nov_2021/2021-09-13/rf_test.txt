@@ -1,0 +1,4 @@
+random forest model begins!
+Spliting is done!
+Mean f1_macro: 0.906
+random forest model ends!

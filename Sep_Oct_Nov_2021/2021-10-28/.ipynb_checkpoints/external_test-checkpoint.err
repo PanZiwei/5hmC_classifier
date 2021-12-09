@@ -1,0 +1,3 @@
+usage: external_test.py [-h] --input_path INPUT_PATH --output_path OUTPUT_PATH
+                        --model_path MODEL_PATH
+external_test.py: error: argument --input_path: expected one argument

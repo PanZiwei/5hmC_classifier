@@ -1,0 +1,43 @@
+cd /pod/2/li-lab/Ziwei/Nanopore/daily/2021-09-27/file
+sbatch rf_50_25_5.sh
+sbatch rf_50_25_10.sh
+sbatch rf_50_10_5.sh
+sbatch rf_50_10_10.sh
+
+sbatch rf_10_25_5.sh
+sbatch rf_10_25_10.sh
+sbatch rf_10_10_5.sh
+sbatch rf_10_10_10.sh
+
+sbatch rf_100_25_5.sh
+sbatch rf_100_25_10.sh
+sbatch rf_100_10_5.sh
+sbatch rf_100_10_10.sh
+
+
+(base) [c-panz@sumner-log2 file]$ sbatch rf_50_25_5.sh
+Submitted batch job 10671908
+(base) [c-panz@sumner-log2 file]$ sbatch rf_50_25_10.sh
+Submitted batch job 10671909
+(base) [c-panz@sumner-log2 file]$ sbatch rf_50_10_5.sh
+Submitted batch job 10671910
+(base) [c-panz@sumner-log2 file]$ sbatch rf_50_10_10.sh
+Submitted batch job 10671911
+(base) [c-panz@sumner-log2 file]$
+(base) [c-panz@sumner-log2 file]$ sbatch rf_10_25_5.sh
+Submitted batch job 10671912
+(base) [c-panz@sumner-log2 file]$ sbatch rf_10_25_10.sh
+Submitted batch job 10671913
+(base) [c-panz@sumner-log2 file]$ sbatch rf_10_10_5.sh
+Submitted batch job 10671914
+(base) [c-panz@sumner-log2 file]$ sbatch rf_10_10_10.sh
+Submitted batch job 10671915
+(base) [c-panz@sumner-log2 file]$
+(base) [c-panz@sumner-log2 file]$ sbatch rf_100_25_5.sh
+Submitted batch job 10671916
+(base) [c-panz@sumner-log2 file]$ sbatch rf_100_25_10.sh
+Submitted batch job 10671917
+(base) [c-panz@sumner-log2 file]$ sbatch rf_100_10_5.sh
+Submitted batch job 10671918
+(base) [c-panz@sumner-log2 file]$ sbatch rf_100_10_10.sh
+Submitted batch job 10671919

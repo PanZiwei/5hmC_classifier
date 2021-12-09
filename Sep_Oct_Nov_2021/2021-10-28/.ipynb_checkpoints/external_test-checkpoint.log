@@ -1,0 +1,22 @@
+Thu Oct 28 16:17:50 EDT 2021
+2021-10-26 is done!
+-------------------------------------------------------------
+SUMNER/WINTER EPILOGUE
+-------------------------------------------------------------
+Job ID: 11374191
+Cluster: slurm_cluster
+User/Group: root/jaxuser
+State: RUNNING
+Cores: 1
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 00:10:20 core-walltime
+Job Wall-clock time: 00:10:20
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 100.00 GB (100.00 GB/node)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.
+-------------------------------------------------------------
+       JobID  User   State    CPUTime Exit     MaxRSS        NodeList  Partition                   ReqTRES              Submit               Start                 End    Elapsed 
+------------ ----- ------- ---------- ---- ---------- --------------- ---------- ------------------------- ------------------- ------------------- ------------------- ---------- 
+11374191     c-pa+ RUNNING   00:10:20  0:0                  sumner055    compute billing=1,cpu=1,mem=1024+ 2021-10-28T16:17:32 2021-10-28T16:17:50             Unknown   00:10:20 
+11374191.ex+       RUNNING   00:10:20  0:0                  sumner055                                      2021-10-28T16:17:50 2021-10-28T16:17:50             Unknown   00:10:20 
+-------------------------------------------------------------

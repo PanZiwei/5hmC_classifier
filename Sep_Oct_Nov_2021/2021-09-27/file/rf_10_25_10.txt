@@ -1,0 +1,59 @@
+Data is loading!
+Spliting is done!
+Current Time = 23:35:10, 09/27/21
+Before SMOTE: Counter({1: 9301876, 0: 5894606, 2: 1662})
+After SMOTE: Counter({1: 9301876, 0: 9301876, 2: 9301876})
+Current Time = 23:36:16, 09/27/21
+[CV] END ................................ score: (test=0.977) total time=30.5min
+[CV] END ................................ score: (test=0.976) total time=30.1min
+[CV] END ................................ score: (test=0.975) total time=29.5min
+[CV] END ................................ score: (test=0.976) total time=26.7min
+[CV] END ................................ score: (test=0.976) total time=25.3min
+[CV] END ................................ score: (test=0.976) total time=24.6min
+[CV] END ................................ score: (test=0.976) total time=25.3min
+[CV] END ................................ score: (test=0.976) total time=29.0min
+[CV] END ................................ score: (test=0.976) total time=29.8min
+[CV] END ................................ score: (test=0.976) total time=29.4min
+[CV] END ................................ score: (test=0.976) total time=29.4min
+[CV] END ................................ score: (test=0.975) total time=28.4min
+[CV] END ................................ score: (test=0.976) total time=29.7min
+[CV] END ................................ score: (test=0.976) total time=29.7min
+[CV] END ................................ score: (test=0.976) total time=30.0min
+[CV] END ................................ score: (test=0.976) total time=30.2min
+[CV] END ................................ score: (test=0.975) total time=30.3min
+[CV] END ................................ score: (test=0.975) total time=29.2min
+[CV] END ................................ score: (test=0.976) total time=30.7min
+[CV] END ................................ score: (test=0.976) total time=30.3min
+[CV] END ................................ score: (test=0.975) total time=28.9min
+[CV] END ................................ score: (test=0.975) total time=29.0min
+[CV] END ................................ score: (test=0.977) total time=30.7min
+[CV] END ................................ score: (test=0.976) total time=29.7min
+[CV] END ................................ score: (test=0.976) total time=30.5min
+[CV] END ................................ score: (test=0.976) total time=30.7min
+[CV] END ................................ score: (test=0.976) total time=30.4min
+[CV] END ................................ score: (test=0.976) total time=29.7min
+[CV] END ................................ score: (test=0.976) total time=30.7min
+[CV] END ................................ score: (test=0.975) total time=28.2min
+[CV] END ................................ score: (test=0.976) total time=30.8min
+[CV] END ................................ score: (test=0.976) total time=31.1min
+[CV] END ................................ score: (test=0.975) total time=30.3min
+[CV] END ................................ score: (test=0.975) total time=30.8min
+[CV] END ................................ score: (test=0.976) total time=29.6min
+[CV] END ................................ score: (test=0.976) total time=28.1min
+[CV] END ................................ score: (test=0.976) total time=30.2min
+[CV] END ................................ score: (test=0.976) total time=25.5min
+[CV] END ................................ score: (test=0.975) total time=24.7min
+[CV] END ................................ score: (test=0.975) total time=26.0min
+[CV] END ................................ score: (test=0.976) total time=24.9min
+[CV] END ................................ score: (test=0.976) total time=24.9min
+[CV] END ................................ score: (test=0.976) total time=24.7min
+Mean f1_macro:0.976
+[CV] END ................................ score: (test=0.976) total time=26.4min
+[CV] END ................................ score: (test=0.975) total time=24.7min
+[CV] END ................................ score: (test=0.976) total time=25.9min
+[CV] END ................................ score: (test=0.976) total time=26.5min
+[CV] END ................................ score: (test=0.976) total time=30.6min
+[CV] END ................................ score: (test=0.975) total time=29.8min
+[CV] END ................................ score: (test=0.975) total time=22.7min
+Training is done!
+Current Time = 02:56:09, 09/28/21

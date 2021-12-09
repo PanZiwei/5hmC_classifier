@@ -1,0 +1,22 @@
+Sumner
+Grid_Search
+(base) [c-panz@sumner-log2 2021-09-15]$ sbatch rf_gridsearch_09152021.sh
+Submitted batch job 10606834
+
+
+ENN
+(base) [c-panz@winter-log2 2021-09-15]$ sbatch rf_down_gpu_09152021.sh
+Submitted batch job 191774
+~10min when n =100
+
+SMOTE
+(base) [c-panz@winter-log2 2021-09-15]$ sbatch rf_up_gpu_09152021.sh
+Submitted batch job 191766
+
+
+
+ENN+GridSearch
+(base) [c-panz@winter-log2 2021-09-15]$ sbatch rf_down_gridsearch_gpu_09152021.sh
+Submitted batch job 191755
+
+

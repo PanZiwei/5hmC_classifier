@@ -1,0 +1,73 @@
+Before installing, make sure that your system is equipped with
+gcc >= 7.5.0. Other compilers might work but are untested.
+make >= 4.2.1. Other versions should work too, but are untested.
+git >= 2.26.2. Other versions should work too, but are untested.
+To install hydi, please make also sure that to have the following dependencies installed on your system (including the corresponding developer packages):
+zlib data compression library (zlib >= 1.2.11)
+GNU scientific library (gsl >= 2.6)
+GNU Multiple Precision Arithmetic Library (gmp >= 6.2.0)
+
+
+source ~/anaconda3/etc/profile.d/conda.sh
+conda activate hydi
+conda env list
+conda install -c conda-forge gcc_impl_linux-64
+conda install -c ehmoussi make
+conda install -c conda-forge git
+conda install -c conda-forge gsl==2.6
+conda install -c conda-forge zlib
+conda install -c nogil-staging gmp
+
+
+conda create -n hydi python=2.7
+conda activate hydi
+module load gcc #load gcc
+conda install -c conda-forge gcc_impl_linux-64
+conda install -c anaconda make #install make
+conda install -c anaconda git #install git
+conda install -c conda-forge gsl #install gsl
+conda install -c anaconda zlib #install zlib
+conda install -c anaconda gmp #install gmp
+cd /home/c-panz/software
+git clone https://github.com/Hoffmann-Lab/hydi.git
+cd hydi
+make
+
+(hydi) [c-panz@sumner037 software]$ gcc --version
+gcc (GCC) 8.2.0
+Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+(hydi) [c-panz@sumner037 hydi]$ make --version
+GNU Make 4.3
+Built for x86_64-conda-linux-gnu
+Copyright (C) 1988-2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+(hydi) [c-panz@sumner037 hydi]$ git --version
+git version 2.33.0
+(hydi) [c-panz@sumner037 software]$ conda list gsl
+# packages in environment at /projects/li-lab/Ziwei/Anaconda3/envs/hydi:
+#
+# Name                    Version                   Build  Channel
+gsl                       2.7                  he838d99_0    conda-forge
+(hydi) [c-panz@sumner037 software]$ conda list zlib
+# packages in environment at /projects/li-lab/Ziwei/Anaconda3/envs/hydi:
+#
+# Name                    Version                   Build  Channel
+zlib                      1.2.11               h7b6447c_3    anaconda
+(hydi) [c-panz@sumner037 hydi]$ conda list gmp
+# packages in environment at /projects/li-lab/Ziwei/Anaconda3/envs/hydi:
+#
+# Name                    Version                   Build  Channel
+gmp                       6.2.1                h58526e2_0    conda-forge
+
+#Fix the error
+export C_INCLUDE_PATH=${C_INCLUDE_PATH}:/projects/li-lab/Ziwei/Anaconda3/envs/hydi/include
+cd /home/c-panz/software/hydi
+make -e LIB="-lm -lz -L/usr/local/lib -L libs -lgmp -lgsl -lgslcblas -L/projects/li-lab/Ziwei/Anaconda3/envs/hydi/lib"
+
+ls /projects/li-lab/Ziwei/Anaconda3/envs/hydi/libgsl.so -lh
+/projects/li-lab/Ziwei/Anaconda3/
+

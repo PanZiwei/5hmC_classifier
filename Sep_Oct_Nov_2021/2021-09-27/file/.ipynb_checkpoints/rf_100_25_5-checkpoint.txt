@@ -1,0 +1,14 @@
+Data is loading!
+Spliting is done!
+Current Time = 23:35:11, 09/27/21
+Before SMOTE: Counter({1: 9301876, 0: 5894606, 2: 1662})
+After SMOTE: Counter({1: 9301876, 0: 9301876, 2: 9301876})
+Current Time = 23:36:10, 09/27/21
+[CV] END ............................... score: (test=0.977) total time=186.6min
+[CV] END ............................... score: (test=0.977) total time=201.5min
+[CV] END ............................... score: (test=0.977) total time=187.9min
+[CV] END ............................... score: (test=0.977) total time=203.5min
+[CV] END ............................... score: (test=0.978) total time=189.1min
+[CV] END ............................... score: (test=0.977) total time=202.8min
+[CV] END ............................... score: (test=0.977) total time=193.3min
+[CV] END ............................... score: (test=0.978) total time=217.5min

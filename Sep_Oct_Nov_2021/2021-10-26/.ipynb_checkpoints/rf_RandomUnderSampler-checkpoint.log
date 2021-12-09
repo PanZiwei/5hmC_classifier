@@ -1,0 +1,22 @@
+Wed Oct 27 01:05:09 EDT 2021
+-------------------------------------------------------------
+SUMNER/WINTER EPILOGUE
+-------------------------------------------------------------
+Job ID: 11355240
+Cluster: slurm_cluster
+User/Group: root/jaxuser
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 50
+CPU Utilized: 00:00:13
+CPU Efficiency: 2.60% of 00:08:20 core-walltime
+Job Wall-clock time: 00:00:10
+Memory Utilized: 1.97 MB
+Memory Efficiency: 0.00% of 750.00 GB
+-------------------------------------------------------------
+       JobID  User   State    CPUTime Exit     MaxRSS        NodeList  Partition                   ReqTRES              Submit               Start                 End    Elapsed 
+------------ ----- ------- ---------- ---- ---------- --------------- ---------- ------------------------- ------------------- ------------------- ------------------- ---------- 
+11355240     c-pa+  FAILED   00:08:20  1:0                  sumner085    compute billing=50,cpu=50,mem=76+ 2021-10-27T00:51:41 2021-10-27T01:05:08 2021-10-27T01:05:18   00:00:10 
+11355240.ba+        FAILED   00:08:20  1:0      1.97M       sumner085                                      2021-10-27T01:05:08 2021-10-27T01:05:08 2021-10-27T01:05:18   00:00:10 
+11355240.ex+       COMPLE+   00:08:20  0:0      1.75M       sumner085                                      2021-10-27T01:05:08 2021-10-27T01:05:08 2021-10-27T01:05:18   00:00:10 
+-------------------------------------------------------------
